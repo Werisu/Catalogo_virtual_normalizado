@@ -1,0 +1,16 @@
+@import 'reset.css';
+@import 'template.css';
+@import 'secao1.css';
+@import 'secao2.css';
+@import 'secao3.css';
+@import 'secao4.css';
+@import 'secao5.css';
+@import 'secao6.css';
+@import 'secao7.css';
+@import 'secao8.css';
+@import 'pulse.css';
+
+/* Responsivo */
+@import '1024.css';
+@import '768.css';
+@import '420.css';

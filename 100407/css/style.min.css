@@ -1,0 +1,404 @@
+/* Last modified: 2019-7-16 18:52:50 */
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'), url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'), url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'), url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Light.ttf') format('truetype'), url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  appearance: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-overflow-scrolling: touch;
+  list-style: none
+}
+
+body.no-scroll, html.no-scroll {
+  overflow: hidden
+}
+
+body, html {
+  width: 100%;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: "familia01Isee"
+}
+
+.section, section {
+  width: 100%;
+  position: relative
+}
+
+section {
+  height: auto;
+  display: inline-block
+}
+
+.section {
+  display: block
+}
+
+.mac * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.mac.safari.internal body {
+  overflow-x: hidden
+}
+
+.wrapper-center {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative
+}
+
+.wrapper-center img {
+  width: 100%;
+  display: block
+}
+
+.wrapper-center img.desktop {
+  display: block
+}
+
+.wrapper-center img.mobile {
+  display: none !important
+}
+
+@media only screen and (max-width:770px) {
+  body, html {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden
+  }
+
+  .wrapper-center {
+    padding: 0
+  }
+
+  .wrapper-center img {
+    width: 100%;
+    display: block
+  }
+
+  .wrapper-center img.desktop {
+    display: none !important
+  }
+
+  .wrapper-center img.mobile {
+    display: block !important
+  }
+}
+
+section.section.section-features#features .wrapper-center .content-columns {
+  display: flex
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-a, section.section.section-features#features .wrapper-center .content-columns .col-b {
+  position: relative;
+  width: 50%
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b {
+  background-color: #dfe7ea
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-left: 30%;
+  color: #fff
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 {
+  font-size: 37px;
+  line-height: 1.3em;
+  margin-bottom: 4%;
+  font-family: "familia01Isee"
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 span {
+  font-size: 47px;
+  display: block;
+  font-family: "familia01Isee"
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt p {
+  font-size: 24px;
+  line-height: 1.4em
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b.ft img {
+  opacity: 1
+}
+
+section.section.section-features#features .wrapper-center .content-columns .col-b img {
+  opacity: 0
+}
+
+section.section.section-features#features .wrapper-center .content-columns.right .col-a {
+  order: 2
+}
+
+section.section.section-features#features .wrapper-center .content-columns .txt {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-left: 14.5%;
+  color: #041e50;
+  z-index: 5
+}
+
+section.section.section-features#features .wrapper-center .content-columns .txt h4 {
+  font-size: 32px;
+  line-height: 1em;
+  margin-bottom: 2.5%
+}
+
+section.section.section-features#features .wrapper-center .content-columns .txt p {
+  font-size: 24px;
+  line-height: 1em
+}
+
+@media only screen and (max-width:1220px) {
+  section.section.section-features#features .wrapper-center .content-columns .col-b {
+    background-color: #dfe7ea
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 {
+    font-size: 3.03279vw
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 span {
+    font-size: 3.85246vw
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt p {
+    font-size: 1.96721vw;
+    line-height: 1.4em
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .txt h4 {
+    font-size: 2.62295vw
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .txt p {
+    font-size: 1.96721vw
+  }
+}
+
+@media only screen and (max-width:770px) {
+  section.section.section-features#features .wrapper-center .content-columns {
+    display: block
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-a, section.section.section-features#features .wrapper-center .content-columns .col-b {
+    width: 100%
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b {
+    background-color: #dfe7ea
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 29%
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 {
+    font-size: 6vw;
+    line-height: 1.3em;
+    margin-bottom: 4%;
+    font-family: "familia01Isee"
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt h4 span {
+    font-size: 7.5vw;
+    display: block;
+    font-family: "familia01Isee"
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft .txt p {
+    font-size: 5vw;
+    line-height: 1.2em
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b.ft img {
+    opacity: 1
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .col-b img {
+    opacity: 0
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .txt {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 15.5%
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .txt h4 {
+    font-size: 5.5vw;
+    line-height: 1em;
+    margin-bottom: 2.5%
+  }
+
+  section.section.section-features#features .wrapper-center .content-columns .txt p {
+    font-size: 4vw;
+    line-height: 1em
+  }
+}
+
+#header .wrapper-center .tit {
+  background: #041e50;
+  color: #fff;
+  text-align: center;
+  padding: 90px 0
+}
+
+#header .wrapper-center .tit h3 {
+  font-family: "familia01Isee";
+  line-height: 1em;
+  font-size: 54px;
+  font-weight: 400
+}
+
+#header .wrapper-center .tit p {
+  font-size: 42px;
+  margin-bottom: 10px
+}
+
+#header .wrapper-center .tit p.menor {
+  font-size: 36px
+}
+
+@media only screen and (max-width:770px) {
+  #header .wrapper-center .tit {
+    padding: 30px 0
+  }
+
+  #header .wrapper-center .tit h3 {
+    font-size: 6vw
+  }
+
+  #header .wrapper-center .tit p {
+    font-size: 5vw
+  }
+
+  #header .wrapper-center .tit p.menor {
+    font-size: 4vw
+  }
+}
+
+#footer .wrapper-center .tit {
+  background: #041e50;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1em;
+  padding: 58px 0
+}
+
+#footer .wrapper-center .tit h3 {
+  font-family: "familia01Isee";
+  margin-bottom: 10px
+}
+
+#footer .wrapper-center .txt-legal {
+  background: #dfe7ea;
+  color: #041e50;
+  padding: 40px 90px 70px
+}
+
+#footer .wrapper-center .txt-legal p {
+  text-align: justify;
+  font-size: 14px
+}
+
+@media only screen and (max-width:1220px) {
+  #footer .wrapper-center .tit {
+    font-size: 2.95082vw;
+    padding: 4.7541vw 0
+  }
+
+  #footer .wrapper-center .tit h3 {
+    margin-bottom: .81967vw
+  }
+
+  #footer .wrapper-center .txt-legal {
+    padding: 3.27869vw 7.37705vw 5.7377vw
+  }
+
+  #footer .wrapper-center .txt-legal p {
+    font-size: 1.14754vw
+  }
+}
+
+@media only screen and (max-width:770px) {
+  #footer .wrapper-center .tit {
+    font-size: 4vw;
+    line-height: .8em;
+    padding: 50px 0
+  }
+
+  #footer .wrapper-center .tit h3 {
+    font-family: "familia01Isee";
+    margin-bottom: 10px
+  }
+
+  #footer .wrapper-center .txt-legal {
+    background: #dfe7ea;
+    color: #041e50;
+    padding: 20px 20px 40px
+  }
+
+  #footer .wrapper-center .txt-legal p {
+    font-size: 9px
+  }
+}

@@ -1,0 +1,64 @@
+/* ================== RESPONSIVO =================== */
+@media (max-width: 1000px){
+	.centralizador{
+		max-width: 90%;
+		padding: 0;
+	}
+
+	.box-txt02{
+		right: 0;
+		width: 220px;
+	}
+
+	.container-btn-01{
+		right: 310px;
+	}
+
+	.container-btn-02{
+		top: 870px;
+		right: 290px;
+	}
+
+	.box-txt03{
+		right: 0;
+		width: 200px;
+	}
+
+	.img-sec02-a{
+		top: 85px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		display: block;
+		width: 225px;
+	}
+
+	.img-sec02-b{
+		left: 7%;
+	}
+
+	.img-sec02-c{
+		right: -170px;
+	}
+
+	.box-txt01, .box-txt04, .box-txt05, .box-txt06, .box-txt07{
+		left: 0;
+	}
+
+	.container-list{
+		margin-right: 20px;
+	}
+}
+
+
+@media (max-width: 900px){
+	.container-btn-01{
+		right: 220px;
+	}
+
+	.container-btn-02{
+		top: 870px;
+		right: 250px;
+	}
+}

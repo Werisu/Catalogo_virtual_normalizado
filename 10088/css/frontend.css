@@ -1,0 +1,1204 @@
+/* ######  remover a linha abaixo antes de enviar para qualquer varejo #####*/
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+/* ######  remover a linha acima  antes de enviar para qualquer varejo #####*/
+
+@font-face {
+    font-family: 'familia01Isee';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBRegular.eot');
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBRegular.eot?#iefix') format("embedded-opentype"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBRegular.woff') format("woff"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBRegular.woff2') format("woff2"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBRegular.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    font-weight: bold;
+    font-style: normal;
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBBd.eot');
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBBd.eot?#iefix') format("embedded-opentype"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBBd.woff') format("woff"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBBd.woff2') format("woff2"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploBBd.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'familia02Isee';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-400.eot');
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-400.eot?#iefix') format("embedded-opentype"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-400.woff') format("woff"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-400.woff2') format("woff2"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-400.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'familia02Isee';
+    font-weight: bold;
+    font-style: normal;
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-700.eot');
+    src: url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-700.eot?#iefix') format("embedded-opentype"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-700.woff') format("woff"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-700.woff2') format("woff2"), url('http://www.isee.com.br/starter/moldes/PADRAO/fonts/exemploA-700.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@media screen and (min-width: 781px) {
+    #containerIsee .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 3.906vw;
+        line-height: 4.688vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.083vw;
+        line-height: 2.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 1.302vw;
+        line-height: 1.563vw;
+        font-weight: normal;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 0.833vw;
+        line-height: 1.000vw;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 46.875vw;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor05.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee:after {
+        width: 54.167vw;
+        height: 33.542vw;
+        position: absolute;
+        top: 9.01vw;
+        left: 37.5vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_1040x644_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #717171;
+        background-size: contain;
+        content: "";
+        display: block;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee {
+        margin-top: 3.542vw;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee:after {
+        width: 12.5vw;
+        height: 2.865vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_240x55_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-color: #717171;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee {
+        margin-top: 3.542vw;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee:after {
+        width: 12.5vw;
+        height: 2.865vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_240x55_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-color: #717171;
+        content: "";
+        display: block;
+        float: right;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        margin-top: 11.094vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 1.031vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 46.875vw;
+    }
+    #containerIsee>#bloco02Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor02.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco02Isee h3 {
+        position: absolute;
+        top: 2.292vw;
+        left: 0;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+        z-index: 305;
+    }
+    #containerIsee>#bloco02Isee .yTubeIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 46.875vw;
+        z-index: 300;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 46.875vw;
+    }
+    #containerIsee>#bloco03Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor05.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 46.875vw;
+        z-index: 60;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label {
+        display: none;
+        height: inherit;
+        width: 2.056vw;
+        clear: none;
+        cursor: hand;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        background-size: contain;
+        margin-left: 2.336vw;
+        margin-right: 2.336vw;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelEsqIsee {
+        float: left;
+        background-image: url("../img/seta_e.png");
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelDirIsee {
+        float: right;
+        background-image: url("../img/seta_d.png");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 46.875vw;
+        z-index: 50;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li {
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        height: inherit;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 10.0vw;
+        height: 27.292vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li h3 {
+        margin-top: 20.104vw;
+        color: #717171;
+        text-align: left;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li p {
+        margin-top: 1.302vw;
+        color: #717171;
+        text-align: left;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor04.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor03.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld04Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld04Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor02.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld05Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld05Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor01.gif");
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~div.lblsIsee label.lbl05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl01Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    @keyframes slideEntraEIsee {
+        0% {
+            opacity: 0;
+            left: -100vw;
+        }
+        1% {
+            opacity: 1;
+            left: -100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideEntraDIsee {
+        0% {
+            opacity: 0;
+            left: 100vw;
+        }
+        1% {
+            opacity: 1;
+            left: 100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideSaiEIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: -100vw;
+        }
+        100% {
+            opacity: 0;
+            left: -100vw;
+        }
+    }
+    @keyframes slideSaiDIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: 100vw;
+        }
+        100% {
+            opacity: 0;
+            left: 100vw;
+        }
+    }
+    #containerIsee>#bloco04Isee {
+        height: 46.875vw;
+    }
+    #containerIsee>#bloco04Isee {
+        background-color: #FFFFFF;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee {
+        height: 46.875vw;
+    }
+    #containerIsee>#bloco05Isee {
+        background-color: #e0e8eb;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee {
+        margin-top: 4.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee div.imgIsee {
+        height: 22.656vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee h3 {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee p {
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #containerIsee .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 9.615vw;
+        line-height: 11.538vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 5.128vw;
+        line-height: 06.154vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 3.205vw;
+        line-height: 03.846vw;
+        font-weight: normal;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'familia02Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.051vw;
+        line-height: 02.462vw;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 144.103vw;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor05.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee:after {
+        width: 100%;
+        height: 77.051vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_1040x644_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-color: #717171;
+        background-size: cover;
+        content: "";
+        display: block;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee {
+        margin-top: 8.462vw;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee:after {
+        width: 24.744vw;
+        height: 5.769vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_240x55_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-color: #717171;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee {
+        margin-top: 8.462vw;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee:after {
+        width: 24.744vw;
+        height: 5.769vw;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_240x55_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-color: #717171;
+        content: "";
+        display: block;
+        float: right;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        margin-top: 17.436vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 1vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 140.103vw;
+    }
+    #containerIsee>#bloco02Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor02.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco02Isee h3 {
+        margin-top: 5.292vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+        z-index: 305;
+    }
+    #containerIsee>#bloco02Isee .yTubeIsee {
+        margin: 10vw 0 0 0;
+        width: 100%;
+        height: 96.875vw;
+        z-index: 300;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 140.103vw;
+    }
+    #containerIsee>#bloco03Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor05.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 140.103vw;
+        z-index: 60;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label {
+        display: none;
+        height: inherit;
+        width: 4vw;
+        clear: none;
+        cursor: hand;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        background-size: contain;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelEsqIsee {
+        float: left;
+        background-image: url("../img/seta_e.png");
+        margin-left: 4vw;
+        margin-top: -30vw;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelDirIsee {
+        float: right;
+        background-image: url("../img/seta_d.png");
+        margin-right: 2vw;
+        margin-top: -32vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 140.103vw;
+        z-index: 50;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li {
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        height: inherit;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 10.0vw;
+        height: 61.538vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li h3 {
+        margin-top: 10.104vw;
+        color: #717171;
+        text-align: center;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li p {
+        margin-top: 1.302vw;
+        color: #717171;
+        text-align: center;
+        font-size: 5vw;
+        line-height: 6.5vw;
+        padding: 0 2vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee p {
+        padding: 0;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor04.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor03.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld04Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld04Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor02.gif");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld05Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld05Isee div.imgIsee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor01.gif");
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideSaiEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideEntraDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~div.lblsIsee label.lbl05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideSaiDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiDIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideEntraEIsee .5s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl01Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    @keyframes slideEntraEIsee {
+        0% {
+            opacity: 0;
+            left: -100vw;
+        }
+        1% {
+            opacity: 1;
+            left: -100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideEntraDIsee {
+        0% {
+            opacity: 0;
+            left: 100vw;
+        }
+        1% {
+            opacity: 1;
+            left: 100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideSaiEIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: -100vw;
+        }
+        100% {
+            opacity: 0;
+            left: -100vw;
+        }
+    }
+    @keyframes slideSaiDIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: 100vw;
+        }
+        100% {
+            opacity: 0;
+            left: 100vw;
+        }
+    }
+    #containerIsee>#bloco04Isee {
+        height: 140.103vw;
+    }
+    #containerIsee>#bloco04Isee {
+        background-color: #FFFFFF;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee div.imgIsee {
+        width: 55%;
+        height: 37.656vw;
+        /* float:left; */
+        /* clear:none; */
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+        margin-left: 20%;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee h3 {
+        width: 50%;
+        /* float:left; */
+        /* clear:none; */
+        margin-left: 22%;
+        margin-top: 10.083vw;
+        color: #717171;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: 4vw;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee div.imgIsee {
+        width: 40%;
+        height: 37.656vw;
+        float: left;
+        clear: none;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee h3 {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee div.imgIsee {
+        width: 40%;
+        height: 37.656vw;
+        float: left;
+        clear: none;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee h3 {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee {
+        height: 220vw;
+    }
+    #containerIsee>#bloco05Isee {
+        background-color: #e0e8eb;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee div.imgIsee {
+        width: 40%;
+        height: 37.656vw;
+        float: left;
+        clear: none;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee h3 {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item01Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee div.imgIsee {
+        width: 40%;
+        height: 37.656vw;
+        float: left;
+        clear: none;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee h3 {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item02Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee {
+        margin-top: 62.458vw;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee div.imgIsee {
+        width: 40%;
+        height: 37.656vw;
+        float: left;
+        clear: none;
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_001x001_cor06.gif");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee h3 {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco05Isee div.item03Isee p {
+        width: 45%;
+        float: left;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 2.083vw;
+        color: #717171;
+        text-align: left;
+        font-weight: normal;
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width:420px){
+    #e6tb1-1ggl .controle{width:100%;padding:0;}
+    #e6tb1-1ggl .tootip img{width:200px!important;max-width:320px!important;}
+    #e6tb1-1ggl .page-eletro h2{font-size:26px;line-height:30px;}
+    #e6tb1-1ggl #secao2 .secao-bottom .box-right img{width:100%;}
+    #e6tb1-1ggl #secao4 .bx-blue{padding:70px 20px;}
+    #e6tb1-1ggl #secao4 .bx-blue h2{font-size:30px;line-height:34px;}
+    #e6tb1-1ggl #secao5 .infos,
+    #e6tb1-1ggl #secao6 .left,
+    #e6tb1-1ggl #secao6 .right,
+    #e6tb1-1ggl #secao7 .infos,
+    #e6tb1-1ggl #secao8 .left,
+    #e6tb1-1ggl #secao8 .bx-blue{padding-left:20px;padding-right:20px;}
+    #e6tb1-1ggl .dados-right{width:100%;margin-top:20px;}
+    #e6tb1-1ggl #secao8 .bx-blue{height:auto}
+    #e6tb1-1ggl #secao8 .bx-blue h2{font-size:30px;line-height:34px;}
+    #e6tb1-1ggl .fts img{float:left;width:50%;}
+    #e6tb1-1ggl #secao7 .spot1{top:20%;left:20px;}
+}

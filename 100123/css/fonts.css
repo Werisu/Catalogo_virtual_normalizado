@@ -1,0 +1,41 @@
+/*@font-face*/
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans SemiBold';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans Bold';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans Light';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Light.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}

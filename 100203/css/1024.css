@@ -1,0 +1,12 @@
+@media screen and (max-width:1199px){
+    #e6tb1-1ggl .controle{width:100%;}
+    #e6tb1-1ggl #secao1{background-position-x:-358px;}
+    #e6tb1-1ggl #secao5 .infos{width:390px;}
+    #e6tb1-1ggl #secao6 .left{margin-left:230px;}
+    #e6tb1-1ggl #secao6 .right{width:270px;margin-left:90px;}
+    #e6tb1-1ggl #secao6 br{display:none;}
+    #e6tb1-1ggl #secao7 .infos{margin-right:65px;}
+    #e6tb1-1ggl #secao8 .left{width:387px;margin:0 0 0 15px;}
+    #e6tb1-1ggl #secao4 .spot1{right:222px;}
+    #e6tb1-1ggl #secao5 .spot1{left:200px;}
+}

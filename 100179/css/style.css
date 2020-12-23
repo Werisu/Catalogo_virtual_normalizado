@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/*Reset Css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: 'ElectroluxSans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+}
+body, html {
+    width: 100%;
+    min-height: 100%;
+    min-width: 800px;
+    overflow-x: hidden;
+}
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 780px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    left: 50%;
+}
+.hotspots li {
+    z-index: 10;
+}
+.hotspots-content img {
+    z-index: 9;
+    display: none;
+}
+
+p {
+    font: 400 16px/1.3em 'ElectroluxSans', Arial, sans-serif;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+h3 {
+    font: 600 28px/1em 'ElectroluxSans', Arial, sans-serif;
+    margin-bottom: 20px;
+    color: #051e4c;
+}
+/*End of Reset Css*/
+
+/*@font-face*/
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'),
+        url('../fonts/ElectroluxSans-Light.ttf') format('truetype'),
+        url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'),
+        url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*Header*/
+header{
+    background: url(../images/bg-header.jpg) no-repeat center;
+    height: 519px;
+}
+header *{
+    color: #FFF;
+}
+header figure#logo {
+    top: 21px;
+    margin-left: -380px;
+}
+header h1{
+    top: 168px;
+    margin-left: -375px;
+    font: 600 68px 'ElectroluxSans', sans-serif;
+}
+header h1 strong{
+    font: 600 18px 'ElectroluxSans', sans-serif;
+    color: #777d90;
+    text-align: right;
+    display: block;
+    margin-bottom: 25px;
+}
+header h2{
+    font: 600 36px 'ElectroluxSans', sans-serif;
+    color: #eb6852;
+    margin-left: -375px;
+    top: 340px;
+    line-height: 36px;
+}
+
+/* Features 1 */
+section#features1{
+    background: url(../images/bg-features1.jpg) no-repeat center bottom;
+    height: 548px;
+}
+section#features1 .txt,
+section#features1 .txt2{
+    margin-left: 145px;
+}
+section#features1 .txt{
+    top: 110px;
+}
+section#features1 .txt2{
+    top: 329px;
+}
+
+/* Features 2 */
+section#features2{
+    background: #d7d1cb url(../images/bg-features2.jpg) no-repeat center bottom;
+    height: 577px;
+}
+section#features2 .txt,
+section#features2 .txt2{
+    margin-left: -197px;
+}
+section#features2 .txt{
+    top: 92px;
+}
+section#features2 .txt2{
+    top: 348px;
+}
+
+/* Features 3 */
+section#features3{
+    background: #dbc4b3 url(../images/bg-features3.jpg) no-repeat center;
+    height: 570px;
+}
+section#features3 .txt{
+    top: 240px;
+    margin-left: 62px;
+    text-align: center;
+}
+section#features3 .txt p{
+    color: #FFF;
+}
+section#features3 .hotspots .item1{
+    margin-left: -314px;
+    top: 321px;
+}
+section#features3 .hotspots-content .item1{
+    margin-left: -313px;
+    top: 193px;
+}
+
+/*Imagem*/
+section#image{
+    background: url(../images/familia-electrolux.jpg) no-repeat center;
+    height: 563px;
+}
+
+/*Embalagem | especificações*/
+section#embalagem-especificacoes{
+    background: url(../images/bg-embalagem-especificacoes.jpg) center no-repeat;
+    height: 488px;
+    background-color: #415464;
+}
+section#embalagem-especificacoes *{
+    color: white;
+}
+section#embalagem-especificacoes .txt{
+    top: 94px;
+    margin-left: 77px;
+    width: 305px;
+}
+section#embalagem-especificacoes h3{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+section#embalagem-especificacoes ul.first{
+    margin-bottom: 100px;
+}
+section#embalagem-especificacoes ul.second li{
+    line-height: 1.6em;
+}
+section#embalagem-especificacoes li{
+    font-size: 15px;
+    line-height: 1.3em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+section#video{
+    background: #fff url(../images/bg-video.jpg) no-repeat top center;;height: 469px;
+}
+section#video h3{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 30px;
+}
+section#video .player {
+    display: table;
+    width: 640px;
+    margin: 0 auto
+}
+
+/*CD*/
+
+.cd-img-replace {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+.cd-single-point {
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transition: all .300s;
+    -webkit-transition: all .300s;
+    -ms-transition: all .300s;
+    -moz-transition: all .300s;
+    -o-transition: all .300s;
+}
+.cd-single-point > a {
+    position: relative;
+    z-index: 99;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    background: url("../images/hotspot.png") 0 0 no-repeat;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    transition: all .300s;
+    -webkit-transition: all .300s;
+    -ms-transition: all .300s;
+    -moz-transition: all .300s;
+    -o-transition: all .300s;
+}
+.cd-single-point:hover {
+    opacity: 0.8;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.cd-single-point::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: transparent;
+    -webkit-animation: cd-pulse 2s infinite;
+    -moz-animation: cd-pulse 2s infinite;
+    animation: cd-pulse 2s infinite;
+
+}
+@-webkit-keyframes cd-pulse {
+    0% {
+        -webkit-transform: scale(0.6);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    100% {
+        -webkit-transform: scale(1.6);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0);
+    }
+}
+@-moz-keyframes cd-pulse {
+    0% {
+        -moz-transform: scale(0.6);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    100% {
+        -moz-transform: scale(1.6);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0);
+    }
+}
+@keyframes cd-pulse {
+    0% {
+        -webkit-transform: scale(0.6) rotate(540deg);
+        -moz-transform: scale(0.6) rotate(540deg);
+        -ms-transform: scale(0.6) rotate(540deg);
+        -o-transform: scale(0.6) rotate(540deg);
+        transform: scale(0.6) rotate(540deg);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0.98);
+    }
+    100% {
+        -webkit-transform: scale(1.6) rotate(540deg);
+        -moz-transform: scale(1.6) rotate(540deg);
+        -ms-transform: scale(1.6) rotate(540deg);
+        -o-transform: scale(1.6) rotate(540deg);
+        transform: scale(1.6) rotate(540deg);
+        box-shadow: inset 0 0 1px 1px rgba(5, 30, 76, 0);
+    }
+}
+

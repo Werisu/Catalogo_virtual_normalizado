@@ -1,0 +1,1906 @@
+/* ######  remover a linha abaixo antes de enviar para qualquer varejo #####*/
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+/* ######  remover a linha acima  antes de enviar para qualquer varejo #####*/
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'), url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'), url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'), url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Light.ttf') format('truetype'), url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@media screen and (min-width: 781px) {
+    #containerIsee .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 3.500vw;
+        line-height: 4.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 1.700vw;
+        line-height: 2.400vw;
+        font-weight: 600;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.000vw;
+        line-height: 2.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .btn-mais {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.000vw;
+        line-height: 2.000vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 1.300vw;
+        line-height: 1.800vw;
+        font-weight: 600;
+    }
+    #containerIsee .textofooter,
+    #containerIsee .textofooter-2 {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 0.900vw;
+        line-height: 1.200vw;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 46.900vw;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("../img/bg-header.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #717171;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee div.barrasuperior {
+        background-color: #041e4c;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee {
+        margin-top: 2.200vw;
+        margin-bottom: 2.200vw;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee:after {
+        width: 14.5vw;
+        height: 3.000vw;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        margin-top: 1.300vw;
+        color: rgb(4, 31, 77, 1);
+        margin-bottom: 1.800vw;
+        text-align: center;
+        font-size: 2.5vw;
+        line-height: 3.300vw
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 1.000vw;
+        height: 9.5vw;
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco01Isee div.box {
+        background-color: #ffffff;
+        height: 24.200vw;
+        margin-top: 7.300vw;
+        width: 37.350vw
+    }
+    #containerIsee>#bloco01Isee ul {
+        margin-top: 2.000vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #containerIsee>#bloco01Isee ul li {
+        width: 8.000vw;
+        height: 8.000vw;
+        clear: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        color: #041f4d;
+    }
+    #containerIsee>#bloco01Isee ul li p {
+        margin-top: 8.500vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico01Isee {
+        background-image: url("../img/thumb-header-01.png");
+        margin-left: 0;
+        margin-right: 0;
+        width: 10.500vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico02Isee {
+        background-image: url("../img/thumb-header-02.png");
+        margin-left: 1.200vw;
+        margin-right: 1.200vw;
+        width: 10.500vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico03Isee {
+        background-image: url("../img/thumb-header-03.png");
+        margin-left: 0;
+        margin-right: 0;
+        width: 10.500vw;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 46.900vw;
+    }
+    #containerIsee>#bloco02Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco02Isee {
+        background-image: url("../img/bg-bloco-02.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco02Isee h3 {
+        font-size: 3.950vw;
+        line-height: 1.25;
+        margin-top: 4.000vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee {
+        margin-top: 4.000vw;
+        width: 14.500vw;
+        height: 14.500vw;
+        padding: 0;
+        background-image: url("../img/icone-play.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee:hover {
+        opacity: 0.85;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee {
+        display: none;
+        height: inherit;
+        width: inherit;
+        background-color: RGB(0, 0, 0, 0.7);
+        z-index: 9998;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div {
+        height: 23.438vw;
+        width: 41.667vw;
+        top: 13vw;
+        left: 29.1665vw;
+        position: absolute;
+        background-color: #000000;
+        border: #FFFFFF solid 0.14vw;
+        overflow: hidden;
+        z-index: 888;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div .yTubeIsee {
+        height: 23.438vw;
+        width: 41.667vw;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label {
+        top: 12vw;
+        right: 27vw;
+        background: url("../img/icone-close.png") #FFFFFF no-repeat left center;
+        background-size: cover;
+        position: absolute;
+        width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 50%;
+        cursor: hand;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label:hover {
+        transform: scale(1.1, 1.1);
+    }
+    #containerIsee>#bloco02Isee #inpVideo_Blc02Isee:checked~div.videoIsee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 46.900vw;
+        background-color: #7b8a99;
+    }
+    #containerIsee>#bloco03Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 46.775vw;
+        z-index: 60;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label {
+        display: none;
+        height: inherit;
+        width: 1.500vw;
+        clear: none;
+        cursor: hand;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        background-size: contain;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelEsqIsee {
+        float: left;
+        background-image: url("../img/arrow-left.png");
+        margin-left: 2.5vw;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelDirIsee {
+        float: right;
+        background-image: url("../img/arrow-right.png");
+        margin-right: 2.5vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 46.775vw;
+        z-index: 50;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li {
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        height: inherit;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 10.0vw;
+        height: 26.920vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li h3 {
+        font-size: 3.950vw;
+        line-height: 1.2;
+        margin-top: 15.000vw;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li p {
+        font-size: 1.750vw;
+        line-height: 1.2;
+        margin-top: 3.000vw;
+        color: #041e4f;
+        text-align: left;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee h3 {
+        margin-top: 14.000vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee p {
+        margin-top: 2.800vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee div.imgIsee {
+        background-image: url("../img/carousel-1.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee div.imgIsee {
+        background-image: url("../img/carousel-2.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee div.imgIsee {
+        background-image: url("../img/carousel-3.jpg");
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~div.lblsIsee label.lbl05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl01Isee {
+        display: block;
+    }
+    @keyframes slideEntraEIsee {
+        0% {
+            opacity: 0;
+            left: -100vw;
+        }
+        1% {
+            opacity: 1;
+            left: -100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideEntraDIsee {
+        0% {
+            opacity: 0;
+            left: 100vw;
+        }
+        1% {
+            opacity: 1;
+            left: 100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideSaiEIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: -100vw;
+        }
+        100% {
+            opacity: 0;
+            left: -100vw;
+        }
+    }
+    @keyframes slideSaiDIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: 100vw;
+        }
+        100% {
+            opacity: 0;
+            left: 100vw;
+        }
+    }
+    #containerIsee>#bloco04Isee {
+        height: 47.000vw;
+        background: #041a4b url("../img/bg-bloco-04.jpg") top center no-repeat;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee {
+        margin-top: 7.000vw;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee div.imgIsee {
+        height: 21.625vw;
+        background-image: url("../img/img-01-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee h3 {
+        font-size: 1.750vw;
+        line-height: 1.3;
+        margin-top: 2.083vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p {
+        font-size: 1.400vw;
+        line-height: 1.3;
+        margin-top: 1.800vw;
+        color: #FFFFFf;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee {
+        margin-top: 7.000vw;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee div.imgIsee {
+        height: 21.625vw;
+        background-image: url("../img/img-02-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee h3 {
+        margin-top: 1.750vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee p {
+        font-size: 1.400vw;
+        line-height: 1.3;
+        margin-top: 1.800vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee {
+        margin-top: 7.000vw;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee div.imgIsee {
+        height: 21.625vw;
+        background-image: url("../img/img-03-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee h3 {
+        margin-top: 1.750vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee p {
+        font-size: 1.400vw;
+        line-height: 1.3;
+        margin-top: 1.800vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee {
+        height: 44vw;
+    }
+    #containerIsee>#bloco05Isee {
+        background-color: #acbbc1;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee {
+        margin-top: 4.000vw;
+        margin-bottom: 4.000vw;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee img {
+        max-width: 19.000vw;
+        float: right;
+    }
+    #containerIsee>#bloco05Isee div.infoIsee {
+        margin-top: 6.500vw;
+        margin-bottom: 3.000vw;
+    }
+    #containerIsee>#bloco05Isee img {
+        width: 100%;
+    }
+    #containerIsee>#bloco05Isee div.infoIsee img {
+        width: 90%;
+    }
+    #containerIsee>#bloco06Isee {
+        background-color: #041f4d;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee {
+        margin-top: 1.300vw;
+        margin-bottom: 1.300vw;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee:after {
+        width: 12.000vw;
+        height: 2.000vw;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco06Isee p {
+        margin-top: 1.200vw;
+        color: #ffffff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco06Isee p.textofooter-2 {
+        text-align: right;
+        right: 2.500vw;
+    }
+}
+
+@media screen and (min-width: 1070px) {
+    #containerIsee .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 42px;
+        line-height: 1.3;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 27px;
+        line-height: 1.3;
+        font-weight: bold;
+    }
+    #containerIsee .btn-mais {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 27px;
+        line-height: 1.3;
+        font-weight: bold;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+    #containerIsee .textofooter,
+    #containerIsee .textofooter-2 {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 10px;
+        line-height: 1.3;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 501px
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("../img/bg-header.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #717171;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee div.barrasuperior {
+        background-color: #041e4c;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee:after {
+        width: 170px;
+        height: 39px;
+        left: 0px;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        margin-top: 15px;
+        color: rgb(4, 31, 77, 1);
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 1.25;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 14px;
+        height: 129px;
+        color: #ffffff;
+        text-align: left;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee div.box {
+        background-color: #ffffff;
+        width: 400px;
+        height: 259px;
+        margin-top: 77px;
+    }
+    #containerIsee>#bloco01Isee ul {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #containerIsee>#bloco01Isee ul li {
+        width: 85px;
+        height: 85px;
+        clear: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        color: #041f4d;
+    }
+    #containerIsee>#bloco01Isee ul li p {
+        margin-top: 95px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    #containerIsee>#bloco01Isee ul li.ico01Isee {
+        background-image: url("../img/thumb-header-01.png");
+        margin-left: 0;
+        margin-right: 0;
+        width: 100px
+    }
+    #containerIsee>#bloco01Isee ul li.ico02Isee {
+        background-image: url("../img/thumb-header-02.png");
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 100px
+    }
+    #containerIsee>#bloco01Isee ul li.ico03Isee {
+        background-image: url("../img/thumb-header-03.png");
+        margin-left: 0;
+        margin-right: 0;
+        width: 100px
+    }
+    #containerIsee>#bloco02Isee {
+        height: 501px;
+    }
+    #containerIsee>#bloco02Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco02Isee {
+        background-image: url("../img/bg-bloco-02.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco02Isee h3 {
+        font-size: 42px;
+        line-height: 1.25;
+        margin-top: 43px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee {
+        margin-top: 45px;
+        width: 155px;
+        height: 155px;
+        padding: 0;
+        background-image: url("../img/icone-play.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee:hover {
+        opacity: 0.85;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee {
+        display: none;
+        height: inherit;
+        width: inherit;
+        background-color: RGB(0, 0, 0, 0.7);
+        z-index: 9998;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div {
+        height: 400px;
+        width: 680px;
+        top: 80px;
+        left: 240px;
+        position: absolute;
+        background-color: #000000;
+        border: #FFFFFF solid 2px;
+        overflow: hidden;
+        z-index: 888;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div .yTubeIsee {
+        height: 400px;
+        width: 680px;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label {
+        top: 55px;
+        left: 900px;
+        background: url("../img/icone-close.png") #FFFFFF no-repeat left center;
+        background-size: cover;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: hand;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label:hover {
+        transform: scale(1.1, 1.1);
+    }
+    #containerIsee>#bloco02Isee #inpVideo_Blc02Isee:checked~div.videoIsee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 501px;
+        background-color: #7b8a99;
+    }
+    #containerIsee>#bloco03Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 501px;
+        z-index: 60;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label {
+        display: none;
+        height: inherit;
+        width: 23px;
+        clear: none;
+        cursor: hand;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        background-size: contain;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelEsqIsee {
+        float: left;
+        background-image: url("../img/arrow-left.png");
+        margin-left: 30px;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelDirIsee {
+        float: right;
+        background-image: url("../img/arrow-right.png");
+        margin-right: 30px;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 501px;
+        z-index: 50;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li {
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        height: inherit;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 105px;
+        height: 289px;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li h3 {
+        font-size: 41px;
+        line-height: 1.2;
+        margin-top: 180px;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li p {
+        font-size: 21px;
+        line-height: 1.2;
+        margin-top: 35px;
+        color: #041e4f;
+        text-align: left;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee h3 {
+        margin-top: 150px;
+        font-size: 44px;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee p {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee div.imgIsee {
+        background-image: url("../img/carousel-1.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee div.imgIsee {
+        background-image: url("../img/carousel-2.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee div.imgIsee {
+        background-image: url("../img/carousel-3.jpg");
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~div.lblsIsee label.lbl05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl01Isee {
+        display: block;
+    }
+    @keyframes slideEntraEIsee {
+        0% {
+            opacity: 0;
+            left: -100vw;
+        }
+        1% {
+            opacity: 1;
+            left: -100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideEntraDIsee {
+        0% {
+            opacity: 0;
+            left: 100vw;
+        }
+        1% {
+            opacity: 1;
+            left: 100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideSaiEIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: -100vw;
+        }
+        100% {
+            opacity: 0;
+            left: -100vw;
+        }
+    }
+    @keyframes slideSaiDIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: 100vw;
+        }
+        100% {
+            opacity: 0;
+            left: 100vw;
+        }
+    }
+    #containerIsee>#bloco04Isee {
+        height: 501px;
+        background: #041a4b url("../img/bg-bloco-04.jpg") top center no-repeat;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee {
+        margin-top: 60px;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee div.imgIsee {
+        height: 232.5px;
+        background-image: url("../img/img-01-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee h3 {
+        font-size: 19px;
+        line-height: 1.3;
+        margin-top: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee {
+        margin-top: 60px;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee div.imgIsee {
+        height: 232.5px;
+        background-image: url("../img/img-02-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee h3 {
+        font-size: 19px;
+        line-height: 1.3;
+        margin-top: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee p {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee {
+        margin-top: 60px;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee div.imgIsee {
+        height: 232.5px;
+        background-image: url("../img/img-03-bloco-04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee h3 {
+        font-size: 19px;
+        line-height: 1.3;
+        margin-top: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee p {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p br,
+    #containerIsee>#bloco04Isee div.item02Isee p br,
+    #containerIsee>#bloco04Isee div.item03Isee p br {
+        display: none;
+    }
+    #containerIsee>#bloco05Isee {
+        height: auto;
+        background-color: #acbbc1;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee {
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee img {
+        max-width: 230px;
+        float: right;
+    }
+    #containerIsee>#bloco05Isee div.infoIsee {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    #containerIsee>#bloco05Isee img {
+        width: 100%;
+    }
+    #containerIsee>#bloco05Isee div.infoIsee img {
+        width: 95%;
+    }
+    #containerIsee>#bloco06Isee {
+        background-color: #041f4d;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee:after {
+        width: 100%;
+        height: 27px;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco06Isee p {
+        margin-top: 18px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco06Isee p.textofooter-2 {
+        text-align: right;
+        right: 35px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #containerIsee .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 9.500vw;
+        line-height: 10.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 4.700vw;
+        line-height: 5.900vw;
+        font-weight: 600;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 4.083vw;
+        line-height: 4.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .btn-mais {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 3.500vw;
+        line-height: 3.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.700vw;
+        line-height: 3.200vw;
+        font-weight: 600;
+    }
+    #containerIsee .textofooter,
+    #containerIsee .textofooter-2 {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 2.400vw;
+        line-height: 3.000vw;
+        font-weight: normal;
+    }
+    #containerIsee .textofooter br {
+        display: none
+    }
+    #containerIsee>#bloco01Isee {
+        height: 158.200vw;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("../img/bg-header-mobile.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #717171;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee div.barrasuperior {
+        background-color: #041e4c;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee {
+        margin-top: 3.542vw;
+        margin-bottom: 3.542vw;
+    }
+    #containerIsee>#bloco01Isee div.logo01Isee:after {
+        width: 32.800vw;
+        height: 6.000vw;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: left;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee {
+        margin-top: 8.462vw;
+    }
+    #containerIsee>#bloco01Isee div.logo02Isee:after {
+        width: 24.744vw;
+        height: 5.769vw;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-color: #FFF;
+        content: "";
+        display: block;
+        float: right;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        font-size: 4.000vw;
+        line-height: 5.200vw;
+        margin-top: 2.800vw;
+        color: rgb(4, 31, 77, 1);
+        margin-bottom: 2.565vw;
+        text-align: center;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 1vw;
+        color: #FFF;
+        text-align: center;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco01Isee div.box {
+        background-color: #ffffff;
+        height: 44vw;
+        margin-top: 87.530vw;
+    }
+    #containerIsee>#bloco01Isee ul {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #containerIsee>#bloco01Isee ul li {
+        width: 16vw;
+        height: 14vw;
+        clear: none;
+        margin-top: 3vw;
+        margin-bottom: 0;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        color: #041f4d;
+    }
+    #containerIsee>#bloco01Isee ul li p {
+        margin-top: 16vw;
+        font-size: 2.500vw;
+        line-height: 3.000vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico01Isee {
+        background-image: url("../img/thumb-header-01.png");
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: .521vw;
+        width: 19vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico02Isee {
+        background-image: url("../img/thumb-header-02.png");
+        margin-left: 2.000vw;
+        margin-right: 2.000vw;
+        width: 19vw;
+    }
+    #containerIsee>#bloco01Isee ul li.ico03Isee {
+        background-image: url("../img/thumb-header-03.png");
+        margin-left: 0;
+        margin-right: 0;
+        width: 19vw;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 61.5vw;
+    }
+    #containerIsee>#bloco02Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco02Isee {
+        background-image: url("../img/bg-bloco-02-mobile.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco02Isee h3 {
+        font-size: 7.300vw;
+        line-height: 1.25;
+        margin-top: 6.600vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee {
+        margin-top: 4.800vw;
+        width: 16.500vw;
+        height: 16.400vw;
+        padding: 0;
+        background-image: url("../img/icone-play.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco02Isee label.abrirIsee:hover {
+        opacity: 0.85;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee {
+        display: none;
+        height: inherit;
+        width: inherit;
+        background-color: RGB(0, 0, 0, 0.7);
+        z-index: 9998;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div {
+        height: 46.500vw;
+        width: 81.667vw;
+        top: 10vw;
+        left: 9.000vw;
+        position: absolute;
+        background-color: #000000;
+        border: #FFFFFF solid 0.34vw;
+        overflow: hidden;
+        z-index: 888;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee div .yTubeIsee {
+        height: 46.500vw;
+        width: 81.667vw;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label {
+        top: 7vw;
+        right: 6vw;
+        background: url("../img/icone-close.png") #FFFFFF no-repeat left center;
+        background-size: cover;
+        position: absolute;
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        cursor: hand;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    #containerIsee>#bloco02Isee div.videoIsee label:hover {
+        transform: scale(1.1, 1.1);
+    }
+    #containerIsee>#bloco02Isee #inpVideo_Blc02Isee:checked~div.videoIsee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 180.775vw;
+        background-color: #7b8a99;
+    }
+    #containerIsee>#bloco03Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 158.775vw;
+        z-index: 60;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label {
+        display: none;
+        height: inherit;
+        width: 4.000vw;
+        margin-top: 54.000vw;
+        clear: none;
+        cursor: hand;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: contain;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelEsqIsee {
+        float: left;
+        background-image: url("../img/arrow-left.png");
+        margin-left: 3vw;
+    }
+    #containerIsee>#bloco03Isee div.lblsIsee label.labelDirIsee {
+        float: right;
+        background-image: url("../img/arrow-right.png");
+        margin-right: 3vw;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 158.775vw;
+        z-index: 50;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li {
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        height: inherit;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 19.0vw;
+        height: 72.400vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li h3 {
+        font-size: 9.450vw;
+        line-height: 1.25;
+        margin-top: 9.000vw;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li p {
+        font-size: 4.750vw;
+        line-height: 1.25;
+        margin-top: 3.000vw;
+        color: #041e4f;
+        text-align: center;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld01Isee div.imgIsee {
+        background-image: url("../img/carousel-1-mobile.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld02Isee div.imgIsee {
+        background-image: url("../img/carousel-2-mobile.jpg");
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee {
+        background-color: transparent;
+    }
+    #containerIsee>#bloco03Isee ul.sldsIsee li.sld03Isee div.imgIsee {
+        background-image: url("../img/carousel-3-mobile.jpg");
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp01_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp02_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp03_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideEntraDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp04_Blc03Isee:checked~div.lblsIsee label.lbl05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld05Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp05_Blc03Isee:checked~div.lblsIsee label.lbl06Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld04Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp06_Blc03Isee:checked~div.lblsIsee label.lbl07Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld03Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp07_Blc03Isee:checked~div.lblsIsee label.lbl08Isee {
+        display: block;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld02Isee {
+        animation: slideSaiDIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~ul.sldsIsee li.sld01Isee {
+        animation: slideEntraEIsee .8s linear;
+        animation-fill-mode: forwards;
+    }
+    #containerIsee>#bloco03Isee #inp08_Blc03Isee:checked~div.lblsIsee label.lbl01Isee {
+        display: block;
+    }
+    @keyframes slideEntraEIsee {
+        0% {
+            opacity: 0;
+            left: -100vw;
+        }
+        1% {
+            opacity: 1;
+            left: -100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideEntraDIsee {
+        0% {
+            opacity: 0;
+            left: 100vw;
+        }
+        1% {
+            opacity: 1;
+            left: 100vw;
+        }
+        99%,
+        100% {
+            opacity: 1;
+            left: 0vw;
+        }
+    }
+    @keyframes slideSaiEIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: -100vw;
+        }
+        100% {
+            opacity: 0;
+            left: -100vw;
+        }
+    }
+    @keyframes slideSaiDIsee {
+        0%,
+        1% {
+            opacity: 1;
+            left: 0vw;
+        }
+        99% {
+            opacity: 1;
+            left: 100vw;
+        }
+        100% {
+            opacity: 0;
+            left: 100vw;
+        }
+    }
+    #containerIsee>#bloco04Isee {
+        height: auto;
+        background: #041a4b url("../img/bg-bloco-04-mobile.jpg") top center no-repeat;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee {
+        margin-top: 22vw;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee div.imgIsee {
+        display: block;
+        margin: 0 auto;
+        max-height: 446px;
+        height: 63vw;
+        width: 70vw;
+        background-image: url("../img/img-01-bloco-04.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee h3 {
+        font-size: 4.900vw;
+        line-height: 6.000vw;
+        margin-top: 6.000vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item01Isee p {
+        font-size: 3.800vw;
+        line-height: 5.000vw;
+        margin-top: 4vw;
+        margin-bottom: 5.583vw;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee {
+        margin-top: 7.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee div.imgIsee {
+        display: block;
+        margin: 0 auto;
+        max-height: 446px;
+        height: 63vw;
+        width: 70vw;
+        background-image: url("../img/img-02-bloco-04.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee h3 {
+        font-size: 4.900vw;
+        line-height: 6.000vw;
+        margin-top: 6.000vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item02Isee p {
+        font-size: 3.800vw;
+        line-height: 5.000vw;
+        margin-top: 4vw;
+        margin-bottom: 5.583vw;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee {
+        margin-top: 7.458vw;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee div.imgIsee {
+        display: block;
+        margin: 0 auto;
+        max-height: 446px;
+        height: 63vw;
+        width: 70vw;
+        background-image: url("../img/img-03-bloco-04.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee h3 {
+        font-size: 4.900vw;
+        line-height: 6.000vw;
+        margin-top: 6.000vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+    }
+    #containerIsee>#bloco04Isee div.item03Isee p {
+        font-size: 3.800vw;
+        line-height: 5.000vw;
+        margin-top: 4vw;
+        margin-bottom: 13.583vw;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco05Isee {
+        height: auto;
+        background-color: #acbbc1;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee {
+        margin-top: 11vw;
+    }
+    #containerIsee>#bloco05Isee div.geladeiraIsee img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #containerIsee>#bloco05Isee div.infoIsee {
+        margin-top: 19vw;
+        margin-bottom: 18vw;
+    }
+    #containerIsee>#bloco05Isee img {
+        width: 100%;
+    }
+    #containerIsee>#bloco06Isee {
+        background-color: #041f4d;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee {
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+    }
+    #containerIsee>#bloco06Isee div.logo01Isee:after {
+        margin: 0 auto;
+        width: 22.5vw;
+        height: 6.865vw;
+        background-image: url("../img/eletrolux_logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        content: "";
+        display: block;
+        float: initial;
+    }
+    #containerIsee>#bloco06Isee p {
+        margin-top: 3.800vw;
+        margin-bottom: 1vw;
+        color: #ffffff;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco06Isee p.textofooter-2 {
+        margin-bottom: 8vw
+    }
+}

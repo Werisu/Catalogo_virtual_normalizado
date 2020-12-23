@@ -1,0 +1,107 @@
+/********
+
+    CSS RESETss
+
+*********/
+body{margin:0; padding:0;vertical-align: baseline;border:0;}
+#e6tb1-1ggl div,
+#e6tb1-1ggl span,
+#e6tb1-1ggl object,
+#e6tb1-1ggl iframe,
+#e6tb1-1ggl h1,
+#e6tb1-1ggl h2,
+#e6tb1-1ggl h3,
+#e6tb1-1ggl h4,
+#e6tb1-1ggl h5,
+#e6tb1-1ggl h6,
+#e6tb1-1ggl p,
+#e6tb1-1ggl blockquote,
+#e6tb1-1ggl pre,
+#e6tb1-1ggl abbr,
+#e6tb1-1ggl address,
+#e6tb1-1ggl cite,
+#e6tb1-1ggl code,
+#e6tb1-1ggl del,
+#e6tb1-1ggl dfn,
+#e6tb1-1ggl em,
+#e6tb1-1ggl img,
+#e6tb1-1ggl ins,
+#e6tb1-1ggl kbd,
+#e6tb1-1ggl q,
+#e6tb1-1ggl samp,
+#e6tb1-1ggl small,
+#e6tb1-1ggl strong,
+#e6tb1-1ggl sub,
+#e6tb1-1ggl sup,
+#e6tb1-1ggl var,
+#e6tb1-1ggl b,
+#e6tb1-1ggl i,
+#e6tb1-1ggl dl,
+#e6tb1-1ggl dt,
+#e6tb1-1ggl dd,
+#e6tb1-1ggl ol,
+#e6tb1-1ggl ul,
+#e6tb1-1ggl li,
+#e6tb1-1ggl fieldset,
+#e6tb1-1ggl form,
+#e6tb1-1ggl label,
+#e6tb1-1ggl legend,
+#e6tb1-1ggl table,
+#e6tb1-1ggl caption,
+#e6tb1-1ggl tbody,
+#e6tb1-1ggl tfoot,
+#e6tb1-1ggl thead,
+#e6tb1-1ggl tr,
+#e6tb1-1ggl th,
+#e6tb1-1ggl td,
+#e6tb1-1ggl article,
+#e6tb1-1ggl aside,
+#e6tb1-1ggl canvas,
+#e6tb1-1ggl details,
+#e6tb1-1ggl figcaption,
+#e6tb1-1ggl figure,
+#e6tb1-1ggl footer,
+#e6tb1-1ggl header,
+#e6tb1-1ggl hgroup,
+#e6tb1-1ggl menu,
+#e6tb1-1ggl nav,
+#e6tb1-1ggl section,
+#e6tb1-1ggl summary,
+#e6tb1-1ggl time,
+#e6tb1-1ggl mark,
+#e6tb1-1ggl audio,
+#e6tb1-1ggl video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+#e6tb1-1ggl article,
+#e6tb1-1ggl aside,
+#e6tb1-1ggl details,
+#e6tb1-1ggl figcaption,
+#e6tb1-1ggl figure,
+#e6tb1-1ggl footer,
+#e6tb1-1ggl header,
+#e6tb1-1ggl hgroup,
+#e6tb1-1ggl menu,
+#e6tb1-1ggl nav,
+#e6tb1-1ggl section{display:block;}
+#e6tb1-1ggl nav ul{list-style:none;}
+#e6tb1-1ggl blockquote,
+#e6tb1-1ggl q{quotes:none;}
+#e6tb1-1ggl blockquote:before,
+#e6tb1-1ggl blockquote:after,
+#e6tb1-1ggl q:before,
+#e6tb1-1ggl q:after{content:'';content:none;}
+#e6tb1-1ggl a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+
+/* change colours to suit your needs */
+#e6tb1-1ggl ins{background-color:#ff9;color:#000;text-decoration:none;}
+
+/* change colours to suit your needs */
+#e6tb1-1ggl mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+#e6tb1-1ggl del{text-decoration:line-through;}
+#e6tb1-1ggl abbr[title],
+#e6tb1-1ggl dfn[title]{border-bottom:1px dotted;cursor:help;}
+#e6tb1-1ggl table{border-collapse:collapse;border-spacing:0;}
+
+/* change border colour to suit your needs */
+#e6tb1-1ggl hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+#e6tb1-1ggl input,
+#e6tb1-1ggl select{vertical-align:middle;}

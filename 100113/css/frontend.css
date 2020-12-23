@@ -1,0 +1,1253 @@
+/* ######  remover a linha abaixo antes de enviar para qualquer varejo #####*/
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+/* ######  remover a linha acima  antes de enviar para qualquer varejo #####*/
+
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'), url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'), url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'), url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ElectroluxSans';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Light.ttf') format('truetype'), url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.Iseecolor01 {
+    background: #041e4c;
+}
+
+.Iseecolor02 {
+    background: #7d8999;
+}
+
+.Iseecolor03 {
+    background: #acbac1;
+}
+
+
+/*Open/Close*/
+
+#containerIsee .menu_opener {
+    display: none;
+}
+
+#containerIsee>#bloco02Isee div.item02Isee .botao1 .menu_opener:checked~.plus-item1 {
+    top: -320px;
+}
+
+#containerIsee>#bloco02Isee div.item02Isee .botao1 .menu_opener:checked~.menu_opener_label:after {
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee div.item02Isee .botao1 .menu_opener:checked~.menu_opener_label:before {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee div.item03Isee .botao2 .menu_opener:checked~.plus-item2 {
+    top: -320px;
+}
+
+#containerIsee>#bloco02Isee div.item03Isee .botao2 .menu_opener:checked~.menu_opener_label:after {
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee div.item03Isee .botao2 .menu_opener:checked~.menu_opener_label:before {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee div.item04Isee .botao3 .menu_opener:checked~.plus-item3 {
+    top: -320px;
+}
+
+#containerIsee>#bloco02Isee div.item04Isee .botao3 .menu_opener:checked~.menu_opener_label:after {
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee div.item04Isee .botao3 .menu_opener:checked~.menu_opener_label:before {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+#containerIsee>#bloco02Isee .menu_opener_label {
+    background: #041e4c;
+    width: 27px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    z-index: 10;
+}
+
+#containerIsee>#bloco02Isee .menu_opener_label:after {
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    background: #FFFFFF;
+    content: "";
+    width: 14px;
+    height: 3px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transform: rotate(90deg);
+}
+
+#containerIsee>#bloco02Isee .menu_opener_label:before {
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    background: #FFFFFF;
+    content: "";
+    width: 14px;
+    height: 3px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#containerIsee>#bloco02Isee .icon-btn-open-close {
+    width: 14px;
+    height: 3px;
+    position: absolute;
+    right: 6.5%;
+    top: 5.8%;
+    opacity: 0;
+    background: #ffffff;
+    z-index: 20;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: block;
+    outline: none;
+}
+
+@media screen and (min-width: 1170px) {
+    #containerIsee>.blocosIsee#bloco01Isee {
+        height: 548px;
+    }
+    #containerIsee>.blocosIsee#bloco01Isee .content-bloco01 {
+        margin-top: 65px;
+        padding-left: 50px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-right: 38px;
+    }
+    #containerIsee>.blocosIsee#bloco01Isee .Iseelogo {
+        max-width: 135px;
+    }
+    #containerIsee>.blocosIsee#bloco01Isee h3 {
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #containerIsee>.blocosIsee#bloco01Isee h4 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #containerIsee>.blocosIsee#bloco01Isee h4.txt03Isee {
+        font-weight: normal;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee {
+        height: 549px;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item01Isee h3 {
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 52px;
+        margin-top: 0;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item01Isee p {
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 40px;
+        z-index: 1;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee .imgIsee.plus-item1,
+    #containerIsee>.blocosIsee#bloco02Isee .imgIsee.plus-item2,
+    #containerIsee>.blocosIsee#bloco02Isee .imgIsee.plus-item3 {
+        height: 320px;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        -webkit-transition: all .6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+        -o-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+    }
+    .imgIsee.plus-item1 {
+        background-image: url(../img/bloco02-01.jpg);
+    }
+    .imgIsee.plus-item2 {
+        background-image: url(../img/bloco02-02.jpg);
+    }
+    .imgIsee.plus-item3 {
+        background-image: url(../img/bloco02-03.jpg);
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item01Isee {
+        margin-top: 100px;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item02Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item03Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item04Isee {
+        margin-top: 130px;
+        overflow: hidden;
+        height: 320px;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item02Isee div.txtIsse02,
+    #containerIsee>.blocosIsee#bloco02Isee div.item03Isee div.txtIsse02,
+    #containerIsee>.blocosIsee#bloco02Isee div.item04Isee div.txtIsse02 {
+        overflow: hidden;
+        height: 320px;
+        margin-right: -5px;
+        background: #acbac1;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item02Isee .txt03Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item03Isee .txt03Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item04Isee .txt03Isee {
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 26px;
+        margin-top: 60px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    #containerIsee>.blocosIsee#bloco02Isee div.item02Isee .txt04Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item03Isee .txt04Isee,
+    #containerIsee>.blocosIsee#bloco02Isee div.item04Isee .txt04Isee {
+        text-align: left;
+        padding-left: 20px;
+        color: #041e4c;
+        font-size: 14px;
+        line-height: 18px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    #containerIsee>.blocosIsee#bloco03Isee {
+        height: 549px;
+        background-image: url("../img/bloco03-bg.jpg");
+        background-repeat: no-repeat;
+    }
+    #containerIsee>.blocosIsee#bloco03Isee h3 {
+        margin-top: 90px;
+        color: #041e4c;
+        text-align: left;
+        font-weight: 600;
+        font-size: 48px;
+        padding: 0;
+        line-height: 54px;
+    }
+    #containerIsee>.blocosIsee#bloco03Isee p {
+        margin-top: 40px;
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 25px;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee {
+        height: 549px;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee .imgIsee,
+    #containerIsee>.blocosIsee#bloco04Isee .txtIsee {
+        margin-top: 160px;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee .imgIsee img {
+        max-width: 100%;
+        height: auto;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee ul.sldsIsee li h3 {
+        margin-top: 55px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee ul.sldsIsee li p {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0;
+    }
+    #containerIsee>.blocosIsee#bloco04Isee div.lblsIsee label:before {
+        color: #FFF;
+        font-size: 18px;
+        top: 22px;
+    }
+    #containerIsee>.blocosIsee#bloco05Isee {
+        height: 475px;
+    }
+    #containerIsee>.blocosIsee#bloco05Isee .img-Isee-01 img {
+        width: 100%;
+        max-width: 315px;
+        margin-top: 50px;
+    }
+    #containerIsee>.blocosIsee#bloco05Isee .img-Isee-02 img {
+        width: 100%;
+        max-width: 250px;
+        margin-top: 65px;
+        float: right;
+    }
+    #containerIsee>.blocosIsee#bloco06Isee .Iseelogo {
+        max-width: 165px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    #containerIsee>.blocosIsee#bloco06Isee .txt01Isee {
+        font-size: 10px;
+        line-height: 14px;
+        color: #FFF;
+        font-weight: normal;
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin-top: 22px;
+    }
+    #containerIsee>.blocosIsee#bloco06Isee .txt02Isee {
+        font-size: 10px;
+        line-height: 14px;
+        color: #FFF;
+        font-weight: normal;
+        margin-top: 22px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 781px) {
+    #containerIsee .txt01Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 3.906vw;
+        line-height: 4.688vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 2.083vw;
+        line-height: 2.500vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 1.302vw;
+        line-height: 1.563vw;
+        font-weight: normal;
+        z-index: 1;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 0.833vw;
+        line-height: 1.000vw;
+        font-weight: normal;
+        z-index: 1;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 46.923vw;
+    }
+    #containerIsee>#bloco01Isee .content-bloco01 {
+        margin-top: 5.55VW;
+        padding-left: 4.273vw;
+        padding-top: 3.846vw;
+        padding-bottom: 3.846vw;
+        padding-right: 3.247vw;
+    }
+    #containerIsee>#bloco01Isee .Iseelogo {
+        max-width: 11.538vw;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.538vw;
+        line-height: 1.880vw;
+        margin-top: 2.564vw;
+        margin-bottom: 2.564vw;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 2.051vw;
+        line-height: 2.393vw;
+    }
+    #containerIsee>#bloco01Isee h4.txt03Isee {
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("../img/bloco01-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.538vw;
+        line-height: 1.880vw;
+        margin-top: 2.564vw;
+        margin-bottom: 2.564vw;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        margin-top: 1.031vw;
+        font-size: 2.051vw;
+        line-height: 2.393vw;
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 46.923vw;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee {
+        margin-top: 8.547vw;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee h3 {
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: 600;
+        font-size: 3.760vw;
+        line-height: 4.444vw;
+        margin-top: 0;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee p {
+        color: #FFFFFF;
+        font-size: 1.709vw;
+        line-height: 2.222vw;
+        margin-top: 3.418vw;
+        z-index: 1;
+        text-align: left;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee,
+    #containerIsee>#bloco02Isee div.item03Isee,
+    #containerIsee>#bloco02Isee div.item04Isee {
+        margin-top: 10vw;
+        overflow: hidden;
+        height: 27.350vw;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee div.txtIsse02,
+    #containerIsee>#bloco02Isee div.item03Isee div.txtIsse02,
+    #containerIsee>#bloco02Isee div.item04Isee div.txtIsse02 {
+        overflow: hidden;
+        height: 27.350vw;
+        margin-right: -0.427vw;
+        background: #acbac1;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee .txt03Isee,
+    #containerIsee>#bloco02Isee div.item03Isee .txt03Isee,
+    #containerIsee>#bloco02Isee div.item04Isee .txt03Isee {
+        font-size: 1.709vw;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 2.222vw;
+        margin-top: 5.128vw;
+        padding-left: 1.709vw;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee .txt04Isee,
+    #containerIsee>#bloco02Isee div.item03Isee .txt04Isee,
+    #containerIsee>#bloco02Isee div.item04Isee .txt04Isee {
+        text-align: left;
+        padding-left: 1.709vw;
+        color: #041e4c;
+        font-size: 1.196vw;
+        line-height: 1.538vw;
+        padding-right: 1.709vw;
+        box-sizing: border-box;
+        margin-top: 1.709vw;
+    }
+    .imgIsee.plus-item1,
+    .imgIsee.plus-item2,
+    .imgIsee.plus-item3 {
+        height: 27.350vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        -webkit-transition: all .6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+        -o-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+    }
+    .imgIsee.plus-item1 {
+        background-image: url(../img/bloco02-01.jpg);
+    }
+    .imgIsee.plus-item2 {
+        background-image: url(../img/bloco02-02.jpg);
+    }
+    .imgIsee.plus-item3 {
+        background-image: url(../img/bloco02-03.jpg);
+    }
+    #containerIsee>#bloco03Isee {
+        height: 46.923vw;
+    }
+    #containerIsee>#bloco03Isee {
+        background-image: url(../img/bloco03-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerIsee>#bloco03Isee h3 {
+        margin-top: 7.692vw;
+        color: #041e4c;
+        text-align: left;
+        font-weight: 600;
+        font-size: 4.102vw;
+        padding: 0;
+        line-height: 4.615vw;
+    }
+    #containerIsee>#bloco03Isee p {
+        margin-top: 3.418vw;
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.794vw;
+        line-height: 2.136vw;
+    }
+    #containerIsee>#bloco04Isee {
+        height: 46.923vw;
+    }
+    #containerIsee>#bloco04Isee {
+        background-color: #041e4c;
+    }
+    #containerIsee>#bloco04Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label {
+        height: 5.729vw;
+        position: relative;
+        float: left;
+        clear: none;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label:before {
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        position: absolute;
+        top: 1.585vw;
+        left: 0;
+        font-size: 1.538vw;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label:hover:before {
+        color: #CCC;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl01Isee:before {
+        content: "Sistema de filtragem";
+        text-align: left;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl02Isee:before {
+        content: "Filtro";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl03Isee:before {
+        content: "Bandeja Coletora";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl04Isee:before {
+        content: "Design";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl05Isee:before {
+        content: "Regulagem";
+        text-align: right;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: inherit;
+        z-index: 50;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: inherit;
+        display: none;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li p {
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.538vw;
+        line-height: 1.880vw;
+        padding: 0;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li h3 {
+        color: #FFFFFF;
+        text-align: left;
+        font-size: 3.418vw;
+        line-height: 3.931vw;
+        margin-top: 4.700vw;
+        margin-bottom: 2.564vw;
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+    }
+    #containerIsee>#bloco04Isee .imgIsee,
+    #containerIsee>#bloco04Isee .txtIsee {
+        margin-top: 13.675vw;
+    }
+    #containerIsee>#bloco04Isee .imgIsee img {
+        max-width: 100%;
+        height: auto;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:not(:checked)~div.lblsIsee label.lbl01Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:checked~div.lblsIsee label.lbl01Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:checked~ul.sldsIsee li.sld01Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:not(:checked)~div.lblsIsee label.lbl02Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:checked~div.lblsIsee label.lbl02Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:checked~ul.sldsIsee li.sld02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:not(:checked)~div.lblsIsee label.lbl03Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:checked~div.lblsIsee label.lbl03Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:checked~ul.sldsIsee li.sld03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:not(:checked)~div.lblsIsee label.lbl04Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:checked~div.lblsIsee label.lbl04Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:checked~ul.sldsIsee li.sld04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:not(:checked)~div.lblsIsee label.lbl05Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:checked~div.lblsIsee label.lbl05Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:checked~ul.sldsIsee li.sld05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco05Isee {
+        height: 40.598vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-01 img {
+        width: 100%;
+        max-width: 26.923vw;
+        margin-top: 4.273vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-02 img {
+        width: 100%;
+        max-width: 21.367vw;
+        margin-top: 5.555vw;
+        float: right;
+    }
+    #containerIsee>#bloco06Isee .Iseelogo {
+        max-width: 14.102vw;
+        margin-top: 1.538vw;
+        margin-bottom: 1.538vw;
+    }
+    #containerIsee>#bloco06Isee .txt01Isee {
+        font-size: 0.854vw;
+        line-height: 1.196vw;
+        color: #FFF;
+        font-weight: normal;
+        padding: 0 1.709vw;
+        box-sizing: border-box;
+        margin-top: 1.880vw;
+    }
+    #containerIsee>#bloco06Isee .txt02Isee {
+        font-size: 0.854vw;
+        line-height: 1.196vw;
+        color: #FFF;
+        font-weight: normal;
+        margin-top: 1.880vw;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #containerIsee .txt01Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 9.615vw;
+        line-height: 11.538vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt02Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 5.128vw;
+        line-height: 06.154vw;
+        font-weight: bold;
+    }
+    #containerIsee .txt03Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 3.205vw;
+        line-height: 03.846vw;
+        font-weight: normal;
+    }
+    #containerIsee .txt04Isee {
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+        font-size: 2.051vw;
+        line-height: 02.462vw;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco01Isee {
+        height: 204.615vw;
+    }
+    #containerIsee>#bloco01Isee {
+        background-image: url("../img/bloco01-m-bg.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #717171;
+        background-size: cover;
+    }
+    #containerIsee>#bloco01Isee .content-bloco01 {
+        margin-top: 108.333vw;
+        width: 75.128vw;
+        margin-left: 12.564vw;
+        padding-left: 10.256vw;
+        padding-top: 8.333vw;
+    }
+    #containerIsee>#bloco01Isee .content-bloco01 .Iseelogo {
+        max-width: 29.230vw;
+        width: 100%;
+    }
+    #containerIsee>#bloco01Isee h3 {
+        margin-top: 7.692vw;
+        color: #041e4c;
+        text-align: left;
+        font-weight: normal;
+        font-size: 4.358vw;
+        line-height: 5.128vw;
+        margin-bottom: 6.410vw;
+    }
+    #containerIsee>#bloco01Isee h4 {
+        color: #FFF;
+        text-align: left;
+        font-weight: 600;
+        font-size: 5.384vw;
+        line-height: 6.153vw;
+        padding-right: 7vw;
+    }
+    #containerIsee>#bloco01Isee h4.txt03Isee {
+        font-weight: normal;
+        padding-top: 3.205vw;
+        padding-bottom: 10.897vw;
+    }
+    #containerIsee>#bloco02Isee {
+        height: 238.717vw;
+    }
+    #containerIsee>#bloco02Isee {
+        background-color: #041f4d;
+    }
+    #containerIsee>#bloco02Isee .menu_opener_label {
+        right: 2%;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee {
+        margin-top: 18.458vw;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee h3 {
+        float: left;
+        clear: none;
+        margin-top: 2.083vw;
+        color: #FFF;
+        text-align: center;
+        font-weight: 600;
+        font-size: 7.692vw;
+        line-height: 9.615vw;
+        padding: 0px 2.564vw;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco02Isee div.item01Isee p {
+        float: left;
+        clear: none;
+        margin-top: 2.083vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: normal;
+        padding: 0px 1vw;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee h3 {
+        margin-top: 5.410vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 4.615vw;
+        line-height: 5.384vw;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee p {
+        clear: none;
+        margin-top: 3.487vw;
+        color: #041f4d;
+        text-align: center;
+        font-weight: normal;
+        z-index: 1;
+        padding: 0 8vw;
+        box-sizing: border-box;
+        font-size: 3.333vw;
+        line-height: 3.846vw;
+    }
+    #containerIsee>#bloco02Isee div.item03Isee {
+        margin-top: 8.458vw;
+    }
+    #containerIsee>#bloco02Isee div.item03Isee h3 {
+        margin-top: 5.410vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 4.615vw;
+        line-height: 5.384vw;
+    }
+    #containerIsee>#bloco02Isee div.item03Isee p {
+        clear: none;
+        margin-top: 3.487vw;
+        color: #041f4d;
+        text-align: center;
+        font-weight: normal;
+        z-index: 1;
+        padding: 0px 4.102vw;
+        box-sizing: border-box;
+        font-size: 3.333vw;
+        line-height: 3.846vw;
+    }
+    #containerIsee>#bloco02Isee div.item04Isee h3 {
+        margin-top: 3.41vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 4.615vw;
+        line-height: 5.384vw;
+        padding: 0 8vw;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco02Isee div.item04Isee p {
+        clear: none;
+        margin-top: 3.487vw;
+        color: #041f4d;
+        text-align: center;
+        font-weight: normal;
+        z-index: 1;
+        padding: 0px 8.102vw;
+        box-sizing: border-box;
+        font-size: 3.333vw;
+        line-height: 3.846vw;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee,
+    #containerIsee>#bloco02Isee div.item03Isee,
+    #containerIsee>#bloco02Isee div.item04Isee {
+        margin-top: 1.666vw;
+        overflow: hidden;
+        height: 40vw;
+        width: 67.307vw;
+        margin-left: 16.282vw;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee {
+        margin-top: 18.717vw;
+    }
+    .imgIsee.plus-item1 {
+        background-image: url(../img/bloco02-m-01.jpg);
+    }
+    .imgIsee.plus-item2 {
+        background-image: url(../img/bloco02-m-02.jpg);
+    }
+    .imgIsee.plus-item3 {
+        background-image: url(../img/bloco02-m-03.jpg);
+    }
+    .imgIsee.plus-item1,
+    .imgIsee.plus-item2,
+    .imgIsee.plus-item3 {
+        height: 40vw;
+        background-repeat: repeat;
+        background-position: center top;
+        background-color: transparent;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        -webkit-transition: all .6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+        -o-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+    }
+    #containerIsee>#bloco02Isee div.item02Isee div.txtIsse02,
+    #containerIsee>#bloco02Isee div.item03Isee div.txtIsse02,
+    #containerIsee>#bloco02Isee div.item04Isee div.txtIsse02 {
+        height: 40vw;
+        background: #acbac1;
+        overflow: hidden;
+    }
+    #containerIsee>#bloco03Isee {
+        height: 149.974vw;
+    }
+    #containerIsee>#bloco03Isee {
+        background-image: url("../img/bloco03-m-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: contain;
+    }
+    #containerIsee>#bloco03Isee h3 {
+        margin-top: 89.102vw;
+        color: #041f4d;
+        text-align: center;
+        font-weight: 600;
+        font-size: 7.692vw;
+        line-height: 9.615vw;
+        padding: 0 3.589vw;
+    }
+    #containerIsee>#bloco03Isee p {
+        margin-top: 8.974vw;
+        color: #041e4c;
+        text-align: center;
+        font-weight: normal;
+        padding: 0 3.205vw;
+    }
+    #containerIsee>#bloco04Isee {
+        height: 200vw;
+    }
+    #containerIsee>#bloco04Isee {
+        background-color: #041e4c;
+    }
+    #containerIsee>#bloco04Isee input {
+        display: none;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        padding: 3.846vw 0 3.846vw 0;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label {
+        width: 100%;
+        height: 10.256vw;
+        position: relative;
+        float: left;
+        clear: none;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label:before {
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        position: absolute;
+        top: 2vw;
+        left: 0;
+        font-weight: normal;
+        font-size: 4.615vw;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label:hover:before {
+        color: #CCC;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl01Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_640x594_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl01Isee:before {
+        content: "Sistema de filtragem";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl02Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_640x594_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl02Isee:before {
+        content: "Filtro";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl03Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_640x594_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl03Isee:before {
+        content: "Bandeja coletora";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl04Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_640x594_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl04Isee:before {
+        content: "Design";
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl05Isee {
+        background-image: url("http://www.isee.com.br/starter/moldes/PADRAO/img/starter_640x594_cor02.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: transparent;
+    }
+    #containerIsee>#bloco04Isee div.lblsIsee label.lbl05Isee:before {
+        content: "Regulagem";
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: inherit;
+        z-index: 50;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: inherit;
+        display: none;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld01Isee {}
+    #containerIsee>#bloco04Isee ul.sldsIsee li div.imgIsee {
+        margin-top: 70.512vw;
+        width: 71.282vw;
+        margin-left: 13.564vw;
+    }
+    #containerIsee>#bloco04Isee .imgIsee img {
+        max-width: 100%;
+        height: auto;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld01Isee p {
+        margin-top: 18.59vw;
+        color: #717171;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld02Isee {}
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld02Isee p {
+        margin-top: 18.59vw;
+        color: #717171;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld03Isee {}
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld03Isee p {
+        margin-top: 18.59vw;
+        color: #717171;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld04Isee {}
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld04Isee p {
+        margin-top: 18.59vw;
+        color: #717171;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld05Isee {}
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld05Isee p {
+        margin-top: 18.59vw;
+        color: #717171;
+        text-align: center;
+        font-weight: normal;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:not(:checked)~div.lblsIsee label.lbl01Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:checked~div.lblsIsee label.lbl01Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp01_Blc04Isee:checked~ul.sldsIsee li.sld01Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:not(:checked)~div.lblsIsee label.lbl02Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:checked~div.lblsIsee label.lbl02Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp02_Blc04Isee:checked~ul.sldsIsee li.sld02Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:not(:checked)~div.lblsIsee label.lbl03Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:checked~div.lblsIsee label.lbl03Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp03_Blc04Isee:checked~ul.sldsIsee li.sld03Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:not(:checked)~div.lblsIsee label.lbl04Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:checked~div.lblsIsee label.lbl04Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp04_Blc04Isee:checked~ul.sldsIsee li.sld04Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:not(:checked)~div.lblsIsee label.lbl05Isee {
+        cursor: hand;
+        cursor: pointer;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:checked~div.lblsIsee label.lbl05Isee:before {
+        color: #041e4c;
+        font-weight: 600;
+    }
+    #containerIsee>#bloco04Isee input#inp05_Blc04Isee:checked~ul.sldsIsee li.sld05Isee {
+        display: block;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li div.txtIsee {
+        margin-top: 14.743vw;
+        width: 71.282vw;
+        margin-left: 12.564vw;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li div.txtIsee h3 {
+        color: #FFF;
+        text-align: center;
+        font-weight: 600;
+        font-size: 7.692vw;
+        line-height: 9.615vw;
+        font-family: 'ElectroluxSans', Verdadana, Arial, Helvetica;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li.sld02Isee div.txtIsee h3 {
+        padding: 0 9vw;
+        box-sizing: border-box;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li div.txtIsee p {
+        margin-top: 13.461vw;
+        padding: 0px 9.615vw;
+        box-sizing: border-box;
+        color: #FFFFFF;
+    }
+    #containerIsee>#bloco04Isee ul.sldsIsee li div.txtIsee p.txt04Isee {
+        margin-top: 0;
+        font-size: 3.205vw;
+        line-height: 3.846vw;
+    }
+    #containerIsee>#bloco05Isee {
+        height: 190.384vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-01 img,
+    #containerIsee>#bloco05Isee .img-Isee-02 img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-01 img {
+        max-width: 65.641vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-02 img {
+        max-width: 51.282vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-01 {
+        margin-top: 14.102vw;
+    }
+    #containerIsee>#bloco05Isee .img-Isee-02 {
+        margin-top: 10.897vw;
+    }
+    #containerIsee>#bloco06Isee .Iseelogo {
+        max-width: 22.435vw;
+        margin-top: 7.179vw;
+        margin-bottom: 5.769vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #containerIsee>#bloco06Isee .txt01Isee {
+        font-size: 2.051vw;
+        line-height: 2.435vw;
+        color: #FFF;
+        font-weight: normal;
+        padding: 0 3.1vw;
+        box-sizing: border-box;
+        margin-top: 1.880vw;
+    }
+    #containerIsee>#bloco06Isee .txt02Isee {
+        font-size: 2.051vw;
+        line-height: 2.435vw;
+        color: #FFF;
+        font-weight: normal;
+        margin-top: 5.128vw;
+        margin-bottom: 7.692vw;
+    }
+}

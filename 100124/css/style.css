@@ -1,0 +1,296 @@
+body{
+	font-family: 'ElectroluxSans Light';
+	overflow-x: hidden;
+}
+
+.centralizador{
+	max-width: 940px;
+	padding: 0 30px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+
+/** ============ SESSAO 01 ============ **/
+.section01{
+	background: url(../img/bg-01.jpg) center top no-repeat;
+	height: 504px;
+	color: #fff;
+	float: left;
+	width: 100%;
+}
+
+.cent01{
+	position: relative;
+	height: 100%;
+}
+
+.section01 .txt{
+	float: left;
+}
+
+.section01 h2{
+	color: #cd5599;
+	font-size: 42px;
+	margin: 30px 0 35px 0;
+	line-height: 43px;
+	font-family: 'ElectroluxSans SemiBold';
+}
+
+.section01 p{
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.section01 .txt-big{
+	font-size: 18px;
+}
+
+.section01 p b{
+	font-family: 'ElectroluxSans SemiBold';
+}
+
+.section01 p strong{
+	color: #cd5599;
+	font-family: 'ElectroluxSans Bold';
+}
+
+.section01 .logo{
+	margin-top: 52px;
+	margin-bottom: 55px;
+}
+
+.img-sec01{
+	position: absolute;
+	bottom: -35px;
+	right: 60px;
+}
+
+
+
+
+
+/** ============ SESSAO 02 ============ **/
+.section02{
+	background: url(../img/bg-02.jpg) center top no-repeat;
+	height: 1621px;
+	float: left;
+	width: 100%;
+}
+
+.container-btn-01{
+	top: 860px;
+	right: 323px;
+}
+
+.img-sec02-a, .img-sec02-b, .img-sec02-c{
+	position: absolute;
+}
+
+.img-sec02-a{
+	top: 85px;
+	left: 380px;
+}
+
+.img-sec02-b{
+	top: 580px;
+	left: 200px;
+}
+
+.img-sec02-c{
+	bottom: 0;
+	right: -45px;
+}
+
+
+
+
+
+/** ============ BLOCOS DE TEXTO ============ **/
+.box-txt{
+	position: absolute;
+	width: 300px;
+}
+
+.box-txt figure{
+	margin-bottom: 20px;
+}
+
+.box-txt h2{
+	color: #cd5599;
+	font-size: 28px;
+	margin-bottom: 20px;
+	font-family: 'ElectroluxSans SemiBold';
+	line-height: 28px;
+}
+
+.box-txt h2 sup{
+	font-size: 15px;
+}
+
+.box-txt p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #646569;
+}
+
+.box-txt01{ top: 145px; left: 90px;}
+.box-txt02{ top: 145px; right: 20px;}
+.box-txt03{ top: 555px; right: 55px;}
+.box-txt04{ bottom: 335px; left: 135px;}
+.box-txt05{ bottom: 120px; left: 135px;}
+.box-txt04 h2, .box-txt05 h2{ color: #041e50;}
+.box-txt04 p, .box-txt05 p{ color: #ffffff;}
+.box-txt06{ top: 86px; left: 140px;}
+.box-txt07{ bottom: 80px; left: 155px;}
+
+
+
+
+
+/** ============ SESSAO 03 ============ **/
+.section03{
+	background: url(../img/bg-03.jpg) center top no-repeat;
+	height: 564px;
+	float: left;
+	width: 100%;
+	text-align: center
+}
+
+.selo{
+	background: url(../img/circle.png);
+	height: 330px;
+	width: 330px;
+	margin: -70px 0 0 93px;
+}
+
+.selo h2{
+	color: #cd5599;
+	font-size: 32px;
+	padding: 135px 0 15px 0;
+	font-family: 'ElectroluxSans SemiBold';
+	line-height: 28px;
+}
+
+.selo p{
+	color: #fff;
+	font-size: 15px;
+}
+
+
+
+
+
+/** ============ SESSAO 04 ============ **/
+.section04{
+	background: url(../img/bg-04.jpg) center top no-repeat;
+	height: 1126px;
+	float: left;
+	width: 100%;
+}
+
+.container-btn-02{
+	top: 870px;
+	right: 315px;
+}
+
+
+
+
+
+/** ============ SESSAO 04 ============ **/
+.section05{
+	background: url(../img/bg-05.jpg) center -3px no-repeat;
+	height: auto;
+	float: left;
+	width: 100%;
+	background-size: cover;
+    padding-bottom: 30px;
+}
+
+.container-video {
+	width: 55%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 70px;
+}
+
+.container-video .titulo-video {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+
+.container-list{
+	float: right;
+	width: 323px;
+	margin: 96px 60px 0 0;
+}
+
+.list{
+	width: 323px;
+	padding: 23px 23px 17px 23px;
+	box-sizing: border-box;
+}
+
+.list h2{
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #041e50;
+	font-family: 'ElectroluxSans SemiBold';
+}
+
+.list ul{
+	list-style: none;
+}
+
+.list ul li{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #e586ca;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 2px 0;
+}
+
+.list ul li:last-child{
+	border-bottom: none;
+}
+
+.list ul li span{
+	color: #041e50;
+}
+
+.list01{
+	background: url(../img/border-one.png) no-repeat;
+	height: 171px;
+	margin-bottom: 40px;
+}
+
+.list02{
+	background: url(../img/border-two.png) no-repeat;
+	height: 213px;
+}
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+

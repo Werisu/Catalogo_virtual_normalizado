@@ -1,0 +1,300 @@
+
+/* ######  remover a linha abaixo antes de enviar para qualquer varejo #####*/
+body{margin: 0;padding:0 }
+/* ######  remover a linha acima  antes de enviar para qualquer varejo #####*/
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Regular.eot');
+    src: url('../fonts/ElectroluxSans-Regular?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Regular.ttf') format('truetype'), url('../fonts/ElectroluxSans-Regular.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-SemiBold.eot');
+    src: url('../fonts/ElectroluxSans-SemiBold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-SemiBold.ttf') format('truetype'), url('../fonts/ElectroluxSans-SemiBold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Bold.eot');
+    src: url('../fonts/ElectroluxSans-Bold?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Bold.ttf') format('truetype'), url('../fonts/ElectroluxSans-Bold.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'familia01Isee';
+    src: url('../fonts/ElectroluxSans-Light.eot');
+    src: url('../fonts/ElectroluxSans-Light?#iefix') format('embedded-opentype'), url('../fonts/ElectroluxSans-Light.ttf') format('truetype'), url('../fonts/ElectroluxSans-Light.svg#ElectroluxSans') format('svg'), url('../fonts/ElectroluxSans-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+/*Open/Close*/
+#containerIsee .menu_opener {display: none;}
+
+#containerIsee > #bloco03Isee div.item01Isee .botao1Isee .menu_opener:checked ~ .plus-item1Isee {top:-328px;}
+#containerIsee > #bloco03Isee div.item01Isee .botao1Isee .menu_opener:checked ~ .menu_opener_label:after {transform: rotate(45deg); top: 15px;}
+#containerIsee > #bloco03Isee div.item01Isee .botao1Isee .menu_opener:checked ~ .menu_opener_label:before {transform: rotate(-45deg); top: 15px;}
+
+#containerIsee > #bloco03Isee div.item02Isee .botao2Isee .menu_opener:checked ~ .plus-item2Isee {top:-328px;}
+#containerIsee > #bloco03Isee div.item02Isee .botao2Isee .menu_opener:checked ~ .menu_opener_label:after {transform: rotate(45deg); top: 15px;}
+#containerIsee > #bloco03Isee div.item02Isee .botao2Isee .menu_opener:checked ~ .menu_opener_label:before {transform: rotate(-45deg); top: 15px;}
+
+#containerIsee > #bloco03Isee div.item03Isee .botao3Isee .menu_opener:checked ~ .plus-item3Isee {top:-328px;}
+#containerIsee > #bloco03Isee div.item03Isee .botao3Isee .menu_opener:checked ~ .menu_opener_label:after {transform: rotate(45deg); top: 15px;}
+#containerIsee > #bloco03Isee div.item03Isee .botao3Isee .menu_opener:checked ~ .menu_opener_label:before {transform: rotate(-45deg); top: 15px;}
+
+#containerIsee > #bloco03Isee .menu_opener_label {background:#041f4d;width:32px;height:32px;display:block;cursor:pointer;border-radius:50%;position:absolute;right:7%;top:5%;z-index:10;}
+#containerIsee > #bloco03Isee .menu_opener_label:after {position:absolute;right:8.5px;top:15px;background:#fff;content: "";width:14px;height:3px;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;transform: rotate(90deg);}
+#containerIsee > #bloco03Isee .menu_opener_label:before {position:absolute;right:8.5px;top:15px;background:#fff;content: "";width:14px;height:3px;-webkit-transition: all 0.4s ease; transition: all 0.4s ease;}
+
+#containerIsee > #bloco03Isee .icon-btn-open-close {width:14px;height:3px;position:absolute;right:6.5%;top:5.8%;opacity:0;background:#fff;z-index:20;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;display:block;outline:none;}
+
+
+@media screen and (min-width: 781px) {
+	#containerIsee .txt01Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:3.500vw;line-height:4.500vw;font-weight:bold;}
+	#containerIsee .txt02Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:1.700vw;line-height:2.400vw;font-weight:600;}
+	#containerIsee .txt03Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:2.000vw;line-height:2.500vw;font-weight:bold;}
+	#containerIsee .btn-mais{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:2.000vw;line-height:2.000vw;font-weight:bold;}
+	#containerIsee .txt04Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:1.300vw;line-height:1.800vw;font-weight:600;}
+	#containerIsee .textofooter{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:0.890vw;line-height:1.200vw;font-weight:normal;}
+	#containerIsee .textofooter-2{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:0.790vw;line-height:1.000vw;font-weight:normal;}
+
+	#containerIsee > #bloco01Isee {height:46.900vw;}
+	#containerIsee > #bloco01Isee {background-image:url("../img/bg-header.jpg");background-repeat:repeat;background-position:left top;background-color:#717171;background-size:cover;}
+	#containerIsee > #bloco01Isee div.barrasuperior{background-color: rgb(4, 30, 77, 0.9);}
+	#containerIsee > #bloco01Isee div.logo01Isee{margin-top: 1.900vw; margin-bottom: 1.900vw;}
+	#containerIsee > #bloco01Isee div.logo01Isee:after{width:12.5vw;height:3.560vw;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:left;}
+	#containerIsee > #bloco01Isee h3{margin-top: 1.900vw;color: #051e4d;margin-bottom: 1.700vw;text-align: center;font-size: 2.000vw;line-height: 1.25;}
+	#containerIsee > #bloco01Isee h4{margin-top:1.031vw;height:9.5vw;color:#FFFFFF;text-align:left;font-weight:600;}
+	#containerIsee > #bloco01Isee div.box{background-color:#ffffff; height:26.200vw;margin-top:6.300vw;width: 33.500vw}
+	#containerIsee > #bloco01Isee ul{margin-top:4.000vw;text-align:center;display:flex;justify-content:center;align-items:center;}
+	#containerIsee > #bloco01Isee ul li{width:8.000vw;height:8.000vw;clear:none;margin-top:0.900vw;margin-bottom:0;background-repeat:no-repeat;background-position:center top;background-size:contain;color:#051e4d;}
+	#containerIsee > #bloco01Isee ul li p{margin-top:8.500vw;}
+	#containerIsee > #bloco01Isee ul li.ico01Isee{background-image:url("../img/thumb-header-01.png");margin-left:0;margin-right:0;width:8.500vw;}
+	#containerIsee > #bloco01Isee ul li.ico02Isee{background-image:url("../img/thumb-header-02.png");margin-left:1.300vw;margin-right:1.300vw;width:8.500vw;}
+	#containerIsee > #bloco01Isee ul li.ico03Isee{background-image:url("../img/thumb-header-03.png");margin-left:0;margin-right:0;width:8.500vw;}
+	
+	#containerIsee > #bloco02Isee {height: 46.950vw;}
+	#containerIsee > #bloco02Isee {background:#7b8b9b url("../img/bg-bloco-02.jpg") top left no-repeat; background-size:contain;}
+	#containerIsee > #bloco02Isee h3{font-size:3.100vw;line-height:1.25;margin-top: 10.000vw;color: #FFFFFF;text-align: left;font-weight: bold}
+	#containerIsee > #bloco02Isee h4{font-size:1.800vw;margin-top:2.500vw;line-height:1.25;color:#041e4d;text-align: left;font-weight: 600;}
+
+	#containerIsee > #bloco03Isee {height:41.950vw; padding-top: 2vw; padding-bottom: 1vw;background: #dee9ec;}
+	#containerIsee > #bloco03Isee div.icol-desk-08{padding: 0;}
+	#containerIsee > #bloco03Isee div.box-textos {margin-top: 4.000vw;}
+	#containerIsee > #bloco03Isee div.box-textos h3 {font-size:4vw;line-height:1.2;color: #041f4d;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco03Isee div.box-textos p {font-size:1.780vw;line-height:1.25;color: #041f4d;margin-top:20px;text-align:center;font-weight: 600;}
+
+	#containerIsee > #bloco03Isee div.icol-desk-08{padding: 0;}
+	#containerIsee > #bloco03Isee div.item01Isee {overflow: hidden; height: 100%;margin-top: 8.000vw;}
+	#containerIsee > #bloco03Isee div.item01Isee div.imgIsee{height:20.000vw;background-image:url("../img/img-01-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item01Isee h3{font-size: 1.900vw; line-height:1.25;margin-top:5.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0vw;}
+	#containerIsee > #bloco03Isee div.item01Isee p{font-size: 1.300vw;line-height: 1.25;margin-top:1.600vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left: 0vw;}
+	#containerIsee > #bloco03Isee div.item02Isee {overflow: hidden; height: 100%;margin-top:8.000vw}
+	#containerIsee > #bloco03Isee div.item02Isee div.imgIsee{height:20.000vw;background-image:url("../img/img-02-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item02Isee h3{font-size: 1.900vw; line-height: 1.25;margin-top:5.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0vw;}
+	#containerIsee > #bloco03Isee div.item02Isee p{font-size: 1.300vw;line-height: 1.25;margin-top:1.600vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left: 0vw;}
+	#containerIsee > #bloco03Isee div.item03Isee {overflow: hidden; height: 100%;margin-top: 8.000vw;}
+	#containerIsee > #bloco03Isee div.item03Isee div.imgIsee{height:20.000vw;background-image:url("../img/img-03-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item03Isee h3{font-size: 1.900vw; line-height: 1.25;margin-top:5.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0vw;}
+	#containerIsee > #bloco03Isee div.item03Isee p{font-size: 1.300vw;line-height: 1.25;margin-top:1.600vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left:0vw;}
+
+	#containerIsee > #bloco03Isee div.item01Isee .botao1Isee {background-color:#fff;height:20.000vw;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item02Isee .botao2Isee {background-color:#fff;height:20.000vw;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item03Isee .botao3Isee {background-color:#fff;height:20.000vw;left:0;right:0;margin: 0 auto;position:absolute;}
+
+	#containerIsee > #bloco04Isee {height:46.900vw;}
+	#containerIsee > #bloco04Isee input{display:none;}
+	#containerIsee > #bloco04Isee{background-image:url("../img/bg-bloco-04.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
+	#containerIsee > #bloco04Isee h3{font-size: 3.900vw;line-height: 1.25;margin-top:5.700vw;color:#FFFFFF;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco04Isee label.abrirIsee{margin-top:6.500vw;width:16.500vw;height: 16.450vw;padding:0;background-image:url("../img/icone-play.png");background-repeat:no-repeat;background-position:center center;background-size:cover;background-color:transparent;cursor:hand;cursor:pointer;}
+	#containerIsee > #bloco04Isee label.abrirIsee:hover{opacity: 0.85;}
+	#containerIsee > #bloco04Isee div.videoIsee{display:none;height:inherit;width:inherit;background-color:RGB(0,0,0,0.7);z-index:9998;position:fixed;top:0;left:0;height: 100%;}
+	#containerIsee > #bloco04Isee div.videoIsee div{height:23.438vw;width:41.667vw;top:13vw;left:29.1665vw;position:absolute;background-color:#000000;border:#FFFFFF solid 0.14vw;overflow:hidden;z-index:888;}
+	#containerIsee > #bloco04Isee div.videoIsee div .yTubeIsee{height:23.438vw;width:41.667vw;}
+	#containerIsee > #bloco04Isee div.videoIsee label{top:12vw;right:27vw;background:url("../img/icone-close.png") #FFFFFF no-repeat left center;background-size:cover;position:absolute;width:2.500vw;height:2.500vw;border-radius:50%;cursor:hand;cursor:pointer;z-index:9999;}
+	#containerIsee > #bloco04Isee div.videoIsee label:hover{transform:scale(1.1,1.1);}
+	#containerIsee > #bloco04Isee #inpVideo_Blc04Isee:checked ~ div.videoIsee{display:block;}
+
+	#containerIsee > #bloco05Isee {height:41vw;}
+	#containerIsee > #bloco05Isee {background-color:#acbac1;}
+	#containerIsee > #bloco05Isee div.dimensaoIsee{margin-top:11.000vw;margin-bottom:1.000vw;}
+	#containerIsee > #bloco05Isee div.infoIsee{margin-top:6.000vw;margin-bottom:1.000vw;}
+	#containerIsee > #bloco05Isee img{width:100%;}
+	#containerIsee > #bloco05Isee div.infoIsee img{width:90%;}
+
+	#containerIsee > #bloco06Isee {background-color:#071d41;}
+	#containerIsee > #bloco06Isee div.logo01Isee{margin-top:1.300vw; margin-bottom:1.300vw;}
+	#containerIsee > #bloco06Isee div.logo01Isee:after{width:12.000vw;height:2.000vw;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:left;}
+	#containerIsee > #bloco06Isee p{margin-top:1.200vw;color:#ffffff;text-align:left;font-weight:normal;}
+}
+
+@media screen and (min-width: 1170px) {
+	#containerIsee .txt01Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:42px;line-height:1.3;font-weight:bold;}
+	#containerIsee .txt02Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:20px;line-height:1.3;font-weight:600;}
+	#containerIsee .txt03Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:27px;line-height:1.3;font-weight:bold;}
+	#containerIsee .btn-mais{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:27px;line-height:1.3;font-weight:bold;}
+	#containerIsee .txt04Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:14px;line-height:1.3;font-weight:600;}
+	#containerIsee .textofooter{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:10px;line-height:1.3;font-weight:normal;}
+	#containerIsee .textofooter-2{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:8.5px;line-height:1.2;font-weight:normal;}
+
+	#containerIsee > #bloco01Isee {height:501px}
+	#containerIsee > #bloco01Isee {background-image:url("../img/bg-header.jpg");background-repeat:repeat;background-position:left top;background-color:#717171;background-size:cover;}
+	#containerIsee > #bloco01Isee div.barrasuperior{background-color: rgb(4, 30, 77, 0.9);}
+	#containerIsee > #bloco01Isee div.logo01Isee{margin-top: 20px; margin-bottom: 20px;}
+	#containerIsee > #bloco01Isee div.logo01Isee:after{width:170px;height:39px;left:0px;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:left;}
+	#containerIsee > #bloco01Isee h3{margin-top: 20px;color: #051e4d;margin-bottom: 23px;text-align: center;font-size: 21px;line-height: 1.25;}
+	#containerIsee > #bloco01Isee h4{margin-top:14px;height:129px;color:#ffffff;text-align:left;font-weight:normal;}
+	#containerIsee > #bloco01Isee div.box{background-color:#ffffff; width: 357px;height:280px;margin-top:67px;}
+	#containerIsee > #bloco01Isee ul{text-align:center;display:flex;justify-content:center;align-items:center;}
+	#containerIsee > #bloco01Isee ul li{width:85px;height:85px;clear:none;margin-top:3px;margin-bottom:0;background-repeat:no-repeat;background-position:center top;background-size:contain;color:#051e4d;}
+	#containerIsee > #bloco01Isee ul li p{margin-top:95px;text-align: center;font-size: 15px; line-height: 1.3;}
+	#containerIsee > #bloco01Isee ul li.ico01Isee{background-image:url("../img/thumb-header-01.png");margin-left:0;margin-right:0;width: 110px}
+	#containerIsee > #bloco01Isee ul li.ico02Isee{background-image:url("../img/thumb-header-02.png");margin-left:0;margin-right:0;width: 110px}
+	#containerIsee > #bloco01Isee ul li.ico03Isee{background-image:url("../img/thumb-header-03.png");margin-left:0;margin-right:0;width: 110px}	
+
+	#containerIsee > #bloco02Isee {height: 502px;}
+	#containerIsee > #bloco02Isee {background:#7b8b9b url("../img/bg-bloco-02.jpg") top left no-repeat; background-size:contain;}
+	#containerIsee > #bloco02Isee h3{font-size:34px;line-height:1.2;margin-top: 100px;color: #ffffff;text-align: left;font-weight: bold}
+	#containerIsee > #bloco02Isee h4{font-size: 20px;line-height: 1.3;margin-top: 30px;color:#041e4d;text-align: left;font-weight: 600;}
+
+	#containerIsee > #bloco03Isee {height:436px; padding-top: 1vw; padding-bottom: 1vw;background: #dee9ec;}
+	#containerIsee > #bloco03Isee div.icol-desk-08{padding: 0;}
+	#containerIsee > #bloco03Isee div.box-textos {margin-top: 50px;}
+	#containerIsee > #bloco03Isee div.box-textos h3 {font-size:40px;line-height:1.25;color: #041f4d;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco03Isee div.box-textos p {font-size:20px;line-height:1.25;color: #041f4d;margin-top:20px;text-align:center;font-weight:600;}
+
+	#containerIsee > #bloco03Isee div.item01Isee {overflow: hidden; height: 100%;margin-top: 75px;}
+	#containerIsee > #bloco03Isee div.item01Isee div.imgIsee{height:210px;background-image:url("../img/img-01-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item01Isee h3{font-size:21px;line-height: 1.2;margin-top:54px;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0px;}
+	#containerIsee > #bloco03Isee div.item01Isee p{font-size:15px;margin-top:19px;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left: 0px;}
+	#containerIsee > #bloco03Isee div.item02Isee {overflow: hidden; height: 100%;margin-top: 75px;}
+	#containerIsee > #bloco03Isee div.item02Isee div.imgIsee{height:210px;background-image:url("../img/img-02-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item02Isee h3{font-size:21px;line-height: 1.2;margin-top:54px;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0px;}
+	#containerIsee > #bloco03Isee div.item02Isee p{font-size:15px;margin-top:19px;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left: 0px;}
+	#containerIsee > #bloco03Isee div.item03Isee {overflow: hidden; height: 100%;margin-top: 75px;}
+	#containerIsee > #bloco03Isee div.item03Isee div.imgIsee{height:210px;background-image:url("../img/img-03-plus.jpg");background-repeat:repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; width:100%;top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item03Isee h3{font-size:21px;line-height: 1.2;margin-top:54px;color:#041e4d;text-align:center;font-weight:bold;z-index:1;margin-left: 0px;}
+	#containerIsee > #bloco03Isee div.item03Isee p{font-size:15px;margin-top:19px;color:#041e4d;text-align:center;font-weight:600;z-index:1;margin-left: 0px;}
+	
+	#containerIsee > #bloco03Isee div.item01Isee .botao1Isee {background-color:#fff;height:210px;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item02Isee .botao2Isee {background-color:#fff;font-family: fantasy;;height:210px;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item03Isee .botao3Isee {background-color:#fff;height:210px;left:0;right:0;margin: 0 auto;position:absolute;}
+
+	#containerIsee > #bloco04Isee {height:501px;}
+	#containerIsee > #bloco04Isee input{display:none;}
+	#containerIsee > #bloco04Isee{background-image:url("../img/bg-bloco-04.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
+	#containerIsee > #bloco04Isee h3{font-size: 42px;line-height: 1.25;margin-top:61px;color:#FFFFFF;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco04Isee label.abrirIsee{margin-top:60px;width:185px;height:185px;padding:0;background-image:url("../img/icone-play.png");background-repeat:no-repeat;background-position:center center;background-size:cover;background-color:transparent;cursor:hand;cursor:pointer;}
+	#containerIsee > #bloco04Isee label.abrirIsee:hover{opacity: 0.85;}
+	#containerIsee > #bloco04Isee div.videoIsee{display:none;height:inherit;width:inherit;background-color:RGB(0,0,0,0.7);z-index:9998;position:fixed;top:0;left:0;height: 100%;}
+	#containerIsee > #bloco04Isee div.videoIsee div{height:400px;width:680px;top: 80px;left:240px;position:absolute;background-color:#000000;border:#FFFFFF solid 2px;overflow:hidden;z-index:888;}
+	#containerIsee > #bloco04Isee div.videoIsee div .yTubeIsee{height:400px;width:680px;}
+	#containerIsee > #bloco04Isee div.videoIsee label{top:55px;left:900px;background:url("../img/icone-close.png") #FFFFFF no-repeat left center;background-size:cover;position:absolute;width:50px;height:50px;border-radius:50%;cursor:hand;cursor:pointer;z-index:9999;}
+	#containerIsee > #bloco04Isee div.videoIsee label:hover{transform:scale(1.1,1.1);}
+	#containerIsee > #bloco04Isee #inpVideo_Blc04Isee:checked ~ div.videoIsee{display:block;}
+
+	#containerIsee > #bloco05Isee {height:auto;}
+	#containerIsee > #bloco05Isee {background-color:#acbac1}
+	#containerIsee > #bloco05Isee div.dimensaoIsee{margin-top:110px;margin-bottom:60px;}
+	#containerIsee > #bloco05Isee div.infoIsee{margin-top:65px;margin-bottom:60px;}
+	#containerIsee > #bloco05Isee img{width:100%;}
+	#containerIsee > #bloco05Isee div.infoIsee img{width:88%;}
+
+	#containerIsee > #bloco06Isee {background-color:#071d41;}
+	#containerIsee > #bloco06Isee div.logo01Isee{margin-top:18px; margin-bottom:18px;}
+	#containerIsee > #bloco06Isee div.logo01Isee:after{width:100%;height:27px;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:left;}
+	#containerIsee > #bloco06Isee p{margin-top:18px;color:#ffffff;text-align:left;font-weight:normal;}
+}
+
+@media screen and (max-width: 780px) {
+	#containerIsee .txt01Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:9.500vw;line-height:10.500vw;font-weight:bold;}
+	#containerIsee .txt02Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:4.700vw;line-height:5.900vw;font-weight:600;}
+	#containerIsee .txt03Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:4.083vw;line-height:4.500vw;font-weight:bold;}
+	#containerIsee .btn-mais{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:3.500vw;line-height:3.500vw;font-weight:bold;}
+	#containerIsee .txt04Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:2.700vw;line-height:3.200vw;font-weight:600;}
+	#containerIsee .textofooter, #containerIsee .textofooter-2{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:2.400vw;line-height:3.000vw;font-weight:normal;}
+	#containerIsee .textofooter br{display: none}
+
+	#containerIsee > #bloco01Isee {height:158.103vw;}
+	#containerIsee > #bloco01Isee {background-image:url("../img/bg-header-mobile.jpg");background-repeat:repeat;background-position:left top;background-color:#717171;background-size:cover;}
+	#containerIsee > #bloco01Isee div.barrasuperior{background-color: rgb(4, 30, 77, 1);}
+	#containerIsee > #bloco01Isee div.logo01Isee{margin-top: 3.542vw; margin-bottom: 3.542vw;}
+	#containerIsee > #bloco01Isee div.logo01Isee:after{width:24.744vw;height:5.769vw;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:left;}
+	#containerIsee > #bloco01Isee h3{font-size: 4.000vw;line-height: 1.2;margin-top: 4.800vw;color: #051e4d;margin-bottom: 2.000vw;text-align: center;}
+	#containerIsee > #bloco01Isee h4{margin-top:1vw;color:#FFF;text-align:center;font-weight:600;}
+	#containerIsee > #bloco01Isee div.box{background-color:#ffffff; height:54.500vw;margin-top:73.000vw;width: 69.200vw;}
+	#containerIsee > #bloco01Isee ul{text-align:center;display:flex;justify-content:center;align-items:center;}
+	#containerIsee > #bloco01Isee ul li{width:18vw;height:16vw;clear:none;margin-top:2.500vw;margin-bottom:0;background-repeat:no-repeat;background-position:center top;background-size:contain;color:#051e4d;}
+	#containerIsee > #bloco01Isee ul li p{margin-top:17.800vw;font-size: 3.500vw; line-height: 1.1;}
+	#containerIsee > #bloco01Isee ul li.ico01Isee{background-image:url("../img/thumb-header-01.png");margin-left:0;margin-right:0;margin-bottom:.521vw;width: 20vw;}
+	#containerIsee > #bloco01Isee ul li.ico02Isee{background-image:url("../img/thumb-header-02.png");margin-left:0;margin-right:0;width: 20vw;}
+	#containerIsee > #bloco01Isee ul li.ico03Isee{background-image:url("../img/thumb-header-03.png");margin-left:0;margin-right:0;width: 20vw;}	
+
+
+	#containerIsee > #bloco02Isee {height:158vw;}
+	#containerIsee > #bloco02Isee {background:#7b8b9b url("../img/bg-bloco-02-mobile.jpg") top center no-repeat; background-size:contain;}
+	#containerIsee > #bloco02Isee h3{font-size: 8.000vw;line-height: 10.500vw;margin-top: 80vw;color: #FFFFFF;text-align: center;font-weight: bold}
+	#containerIsee > #bloco02Isee h4{font-size: 4.900vw; line-height: 5.900vw;margin-top: 6.500vw;color:#041f4d;text-align: center;font-weight:600;}
+
+	#containerIsee > #bloco03Isee {height:auto; padding-top: 10vw; padding-bottom: 13vw;background: #dee9ec;}
+	#containerIsee > #bloco03Isee div.icol-desk-08{padding: 0;}
+	
+	#containerIsee > #bloco03Isee div.box-textos h3 {font-size:10.000vw;line-height:1.2;color: #041f4d;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco03Isee div.box-textos p {font-size:4.300vw;line-height:1.3;color: #041f4d;margin-top:5.000vw;margin-bottom:11vw;text-align:center;font-weight: 600;}
+
+	#containerIsee > #bloco03Isee div.item01Isee {height:48vw;display: block; overflow: hidden; margin-bottom: 2.5vw}
+	#containerIsee > #bloco03Isee div.item01Isee div.imgIsee{display: block;margin: 0 auto;height:48vw;width:80vw;background-image:url("../img/img-01-plus-mobile.jpg");background-repeat:no-repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item01Isee h3{font-size: 5.500vw;line-height:1.25;margin-top:9.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;}
+	#containerIsee > #bloco03Isee div.item01Isee p{font-size: 3.900vw;line-height:1.2;margin-top:3.500vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;}
+	#containerIsee > #bloco03Isee div.item02Isee {height:48vw;display: block; overflow: hidden; margin-bottom: 2.5vw}
+	#containerIsee > #bloco03Isee div.item02Isee div.imgIsee{display: block;margin: 0 auto;height:48vw;width:80vw;background-image:url("../img/img-02-plus-mobile.jpg");background-repeat:no-repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item02Isee h3{font-size: 5.500vw;line-height:1.25;margin-top:9.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;}
+	#containerIsee > #bloco03Isee div.item02Isee p{font-size: 3.900vw;line-height:1.2;margin-top:3.500vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;}
+	#containerIsee > #bloco03Isee div.item03Isee {height:48vw;display: block; overflow: hidden;}
+	#containerIsee > #bloco03Isee div.item03Isee div.imgIsee{display: block;margin: 0 auto;height:48vw;width:80vw;background-image:url("../img/img-03-plus-mobile.jpg");background-repeat:no-repeat;background-position:center top;background-color:transparent;background-size:cover;position:absolute; top:0;z-index:2;-webkit-transition: all .6s ease-in-out; -moz-transition: all .6s ease-in-out; -ms-transition: all .6s ease-in-out;-o-transition: all .6s ease-in-out;transition: all .6s ease-in-out;}
+	#containerIsee > #bloco03Isee div.item03Isee h3{font-size: 5.500vw;line-height:1.25;margin-top:9.000vw;color:#041e4d;text-align:center;font-weight:bold;z-index:1;}
+	#containerIsee > #bloco03Isee div.item03Isee p{font-size: 3.900vw;line-height:1.2;margin-top:3.500vw;color:#041e4d;text-align:center;font-weight:600;z-index:1;}
+
+	#containerIsee > #bloco03Isee .menu_opener_label {background:#041e4d;width:32px;height:32px;display:block;cursor:pointer;border-radius:50%;position:absolute;right:2%;top:5%;z-index:10;}
+	
+	#containerIsee > #bloco04Isee {height:72.6vw;}
+	#containerIsee > #bloco04Isee input{display:none;}
+	#containerIsee > #bloco04Isee{background-image:url("../img/bg-bloco-04-mobile.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
+	#containerIsee > #bloco04Isee h3{font-size: 7.800vw;line-height: 1.25;margin-top:8.200vw;color:#FFFFFF;text-align:center;font-weight:bold;}
+	#containerIsee > #bloco04Isee label.abrirIsee{margin-top:5.000vw;width:20.500vw;height: 20.400vw;padding:0;background-image:url("../img/icone-play.png");background-repeat:no-repeat;background-position:center center;background-size:cover;background-color:transparent;cursor:hand;cursor:pointer;}
+	#containerIsee > #bloco04Isee label.abrirIsee:hover{opacity: 0.85;}
+	#containerIsee > #bloco04Isee div.videoIsee{display:none;height:inherit;width:inherit;background-color:RGB(0,0,0,0.7);z-index:9998;position:fixed;top:0;left:0;height: 100%;}
+	#containerIsee > #bloco04Isee div.videoIsee div{height:46.500vw;width:81.667vw;top:10vw;left:9.000vw;position:absolute;background-color:#000000;border:#FFFFFF solid 0.34vw;overflow:hidden;z-index:888;}
+	#containerIsee > #bloco04Isee div.videoIsee div .yTubeIsee{height:46.500vw;width:81.667vw;}
+	#containerIsee > #bloco04Isee div.videoIsee label{top:7vw;right:6vw;background:url("../img/icone-close.png") #FFFFFF no-repeat left center;background-size:cover;position:absolute;width:5vw;height:5vw;border-radius:50%;cursor:hand;cursor:pointer;z-index:9999;}
+	#containerIsee > #bloco04Isee div.videoIsee label:hover{transform:scale(1.1,1.1);}
+	#containerIsee > #bloco04Isee #inpVideo_Blc04Isee:checked ~ div.videoIsee{display:block;}
+
+
+	#containerIsee > #bloco05Isee {height:auto;}
+	#containerIsee > #bloco05Isee {background-color:#acbac1;}
+	#containerIsee > #bloco05Isee div.dimensaoIsee{margin-top:15vw;}
+	#containerIsee > #bloco05Isee div.infoIsee{margin-top:13vw;margin-bottom: 18vw;}
+	#containerIsee > #bloco05Isee img{width:100%;}
+
+	#containerIsee > #bloco06Isee {background-color:#071d41;}
+	#containerIsee > #bloco06Isee div.logo01Isee{margin-top:5vw; margin-bottom:2vw;}
+	#containerIsee > #bloco06Isee div.logo01Isee:after{margin:0 auto;width:22.5vw;height:6.865vw;background-image:url("../img/eletrolux_logo.png");background-repeat:no-repeat;background-position:center center;background-size:contain;content:"";display:block;float:initial;}
+	#containerIsee > #bloco06Isee p{margin-top:3.800vw;margin-bottom:8vw;color:#ffffff;text-align:center;font-weight:normal;}
+
+	#containerIsee > #bloco03Isee .menu_opener_label {top:5%;}
+	#containerIsee > #bloco03Isee div.item01Isee .botao1Isee {width:80vw;background-color:#fff;font-family: fantasy;;height:48vw;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item02Isee .botao2Isee {width:80vw;background-color:#fff;height:48vw;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item03Isee .botao3Isee {width:80vw;background-color:#fff;height:48vw;left:0;right:0;margin: 0 auto;position:absolute;}
+	#containerIsee > #bloco03Isee div.item01Isee .botao1Isee .menu_opener:checked ~ .plus-item1Isee {top:-101%;}
+	#containerIsee > #bloco03Isee div.item02Isee .botao2Isee .menu_opener:checked ~ .plus-item2Isee {top:-101%;}
+	#containerIsee > #bloco03Isee div.item03Isee .botao3Isee .menu_opener:checked ~ .plus-item3Isee {top:-101%;}
+}

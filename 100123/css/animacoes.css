@@ -1,0 +1,78 @@
+/** ============== ANIMAÇÕES ============== **/
+@-webkit-keyframes border {
+	0% { -webkit-transform: scale(1); }
+	100% { -webkit-transform: scale(1.5); opacity: 0;}
+}
+
+@keyframes border {
+	0% { -webkit-transform: scale(1); }
+	100% { -webkit-transform: scale(1.5); opacity: 0;}
+}
+
+.container-btn{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	z-index: 15;
+}
+
+.btn{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transition: .3s;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.border{
+	border-radius: 8px;
+	border: 2px solid #051e4c;
+	transition: .3s;
+	box-sizing: border-box;			
+	animation-name: border;
+	-webkit-animation-name: border;
+	animation-delay: 0;
+	-webkit-animation-delay: 0;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1.3s;
+}
+
+.border, .plus{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+}
+
+.btn:hover{
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.img-hover-one{
+	display: none;
+	margin-top: -30px;
+}
+
+.container-btn-01:hover .img-hover-one{
+	display: block;
+}
+
+.img-hover-two{
+	display: none;
+	margin: -180px 0 0 5px;
+}
+
+.container-btn-02:hover .img-hover-two{
+	display: block;
+}
